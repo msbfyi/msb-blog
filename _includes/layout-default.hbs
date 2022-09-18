@@ -16,9 +16,14 @@
 	</head>
 <body>
 	<div>
+		{{> banner}}
 		{{> header}}
+		{{> sidebar}}
 		<hr>
-		{{{content}}}
+		<div id="main">
+			{{{content}}}
+		</div>
+		{{> footer}}
 	</div>
 </body>
 </html>
