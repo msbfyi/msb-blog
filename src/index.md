@@ -1,7 +1,8 @@
 ---
-title: Home
-layout: layout-landing.njx
-tags: page
+layout: page
+eleventyNavigation:
+  key: home
+  order: 1
 ---
 
 ## Hello World!
