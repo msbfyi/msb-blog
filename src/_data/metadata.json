@@ -1,0 +1,12 @@
+{
+  "title": "MSB.fyi",
+  "url": "https://msb.fyi",
+  "language": "en",
+  "description": "The home of Michael Sean Becker on the web.",
+  "author": {
+    "name": "Michael Sean Becker",
+    "email": "blog@msb.fyi"
+  },
+  "image": "/assets/transparent_cartoon.png",
+  "feedUrl": "https://msb.fyi/feed.xml"
+}
