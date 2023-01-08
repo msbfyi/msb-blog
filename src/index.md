@@ -7,5 +7,3 @@ eleventyNavigation:
 
 ## Hello World!
 Starting it back up!
-
-You know it.

@@ -8,5 +8,5 @@
     "email": "blog@msb.fyi"
   },
   "image": "/assets/transparent_cartoon.png",
-  "feedUrl": "https://msb.fyi/feed.xml"
+  "feedUrl": "https://msb.fyi/feed.rss"
 }
