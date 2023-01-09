@@ -1,19 +1,30 @@
 {
-  "name": "msb-blog",
+  "name": "eleventy-not-so-minimal-blog-starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A not so minimal starter for building a website + blog using the Eleventy static site generator.",
+  "main": "index.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate:sprite": "svg-icon-generate --folder=src/assets/icons --output=src/assets/sprite.svg",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all generate:sprite --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "debug": "DEBUG=* npx eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@umbrel.local:2222/michaelseanbecker/msb-blog.git"
+  "author": {
+    "name": "Claudia Reynders",
+    "email": "hello-claudia@mangamaui.com",
+    "url": "https://mangamaui.com"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-img": "^2.0.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "luxon": "^2.3.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.50.1",
+    "svg-icon-sprite": "^1.1.1"
   }
 }

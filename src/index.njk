@@ -1,0 +1,14 @@
+---
+layout: page
+eleventyNavigation:
+  key: home
+  order: 1
+pagination:
+  data: collections.blog
+  size: 10
+  alias: articles
+---
+
+<h1>{{ title }}</h1>
+
+{% include "./_includes/components/articleList.njk" %}
