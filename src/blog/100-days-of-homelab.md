@@ -5,8 +5,10 @@ date: 2023-01-09
 category: "Homelab"
 ---
 
-Four months ago, my oldest started his Freshmen year at Coe College. At drop off, I decided that I needed a distraction, and found the #100DaysOfHomelab project that [Techno Tim](https://techno-tim.github.io) had started. It was the push I needed and I dove into working on my Homelab with a direction for the first time in a long time.
+Four months ago, my oldest started his Freshmen year at Coe College. At drop off, I decided that I needed a distraction.
 <!-- excerpt -->
+
+When I got home I found the #100DaysOfHomelab project that [Techno Tim](https://techno-tim.github.io) had started. It was the push I needed and I dove into working on my Homelab with a direction for the first time in a long time.
 
 Initial setup consists of the following:
 
