@@ -3,14 +3,16 @@ permalink: /feed.rss
 eleventyExcludeFromCollections: true
 ---
 
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+<?xml version="1.0"?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html" xmlns:sopml="http://v1.sopml.com/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>{{ metadata.title }}</title>
-        <subtitle>{{ metadata.summary }}</subtitle>
-        <link href="{{ metadata.feedUrl }}" rel="self"/>
+        <description>{{ metadata.summary }}</description>
         <link href="{{ metadata.url }}"/>
-        <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+        <pubDate>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+        <lastBuildDate>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
+        <managingEditor>m@msb.fyi (Michael Sean Becker)</managingEditor>
+
         <id>{{ metadata.url }}</id>
         <author>
             <name>Claudia R</name>
@@ -18,14 +20,16 @@ eleventyExcludeFromCollections: true
 
         {%- for article in collections.blog -%}
         {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
-        <entry>
+        <item>
             <title>{{ article.data.title }}</title>
-            <link href="{{ absolutePostUrl }}"/>
-            <updated>{{ article.date | dateToRfc3339 }}</updated>
-            <id>{{ absolutePostUrl }}</id>
+            <pubDate>{{ article.date | dateToRfc3339 }}</pubDate>
+            <link>href="{{ absolutePostUrl }}</link>
+            <source:linkFull>href="{{ absolutePostUrl }}</source:linkFull>
+            <guid>{{ absolutePostUrl }}</guid>
+            <author>m@msb.fyi (Michael Sean Becker)</author>
             {% set excerpt = article.data.excerpt %}
             <content type="html">{{ excerpt | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-        </entry>
+        </item>
         {%- endfor -%}
     </channel>
 </rss>
