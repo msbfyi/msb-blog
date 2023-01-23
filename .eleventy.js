@@ -5,7 +5,11 @@ const { DateTime } = require('luxon')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
-  eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(pluginRss, {
+    posthtmlRenderOptions: {
+      closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
+    }
+  })
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
   eleventyConfig.addLayoutAlias('article', 'layouts/article')
