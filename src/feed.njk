@@ -3,7 +3,7 @@ permalink: /feed.rss
 eleventyExcludeFromCollections: true
 ---
 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html" xmlns:sopml="http://v1.sopml.com/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"  xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>{{ metadata.title }}</title>
         <description>{{ metadata.summary }}</description>
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
         {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
         <item>
             <title>{{ article.data.title }}</title>
-            <link>href="{{ absolutePostUrl }}</link>
+            <link>{{ absolutePostUrl }}</link>
             <pubDate>{{ article.date | dateToRfc3339 }}</pubDate>
             <source:linkFull>href="{{ absolutePostUrl }}</source:linkFull>
             <guid>{{ absolutePostUrl }}</guid>
@@ -28,3 +28,4 @@ eleventyExcludeFromCollections: true
         {%- endfor -%}
     </channel>
 </rss>
+
