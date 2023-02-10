@@ -1,5 +1,7 @@
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
+const markdownIt = require("markdown-it")
+// const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 const { DateTime } = require('luxon')
 
@@ -10,6 +12,8 @@ module.exports = function(eleventyConfig) {
       closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
     }
   })
+
+  // eleventyConfig.addPlugin(UpgradeHelper)
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
   eleventyConfig.addLayoutAlias('article', 'layouts/article')
@@ -28,6 +32,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {
       zone: 'America/Los_Angeles',
     }).setLocale('en').toLocaleString(DateTime.DATE_FULL)
+  })
+
+  eleventyConfig.addFilter("md", function (content = "") {
+    return markdownIt({ html: true }).render(content);
   })
 
   /* Creating a collection of blogposts by filtering based on folder and filetype */
