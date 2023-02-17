@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: msbfyi/msb-blog
+  branch: main
+  api_root: https://api.github.com
+  site_domain: msb.fyi
+  auth_endpoint: auth
+  cms_label_prefix: netlify-cms/
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/uploads"
+public_folder: "_site"
