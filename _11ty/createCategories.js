@@ -31,3 +31,5 @@ function strToSlug(str) {
   
   return slugify(str, options);
 }
+
+// TODO: Add Trakt intetgration
