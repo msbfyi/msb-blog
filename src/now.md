@@ -1,3 +1,13 @@
+---
+layout: page
+title: Now
+eleventyNavigation:
+  key: now
+  order: 3
+
+---
+
+## My /now page
 
 (This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
 
@@ -12,7 +22,7 @@
 
 ### What I’m making
 
-- Homenetwork 
+- Home networking - 103.cat Project 
 - Ok, What Went Wrong? - Podcast with my oldest on our learnings in our computer hobbies
 
 ### What I’m enjoying

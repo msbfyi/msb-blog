@@ -2,6 +2,7 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require("markdown-it")
 // const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const EleventyFetch = require('@11ty/eleventy-fetch')
 
 const { DateTime } = require('luxon')
 
