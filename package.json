@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-not-so-minimal-blog-starter",
+  "name": "msb.fyi",
   "version": "1.0.0",
-  "description": "A not so minimal starter for building a website + blog using the Eleventy static site generator.",
+  "description": "Home of Michael Sean Becker",
   "main": "index.md",
   "scripts": {
     "generate:sprite": "svg-icon-generate --folder=src/assets/icons --output=src/assets/sprite.svg",
@@ -12,9 +12,9 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "author": {
-    "name": "Claudia Reynders",
-    "email": "hello-claudia@mangamaui.com",
-    "url": "https://mangamaui.com"
+    "name": "Michael Sean Becker",
+    "email": "hi@msb.fyi",
+    "url": "https://msb.fyi"
   },
   "license": "MIT",
   "dependencies": {
