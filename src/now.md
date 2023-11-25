@@ -18,7 +18,7 @@ eleventyNavigation:
 
 ### What I’m watching 📺
 
-- 🟧🟦🟧 [Ahsoka](https://en.wikipedia.org/wiki/Ahsoka_(TV_series))
+- 🟦💕 Doctor Who
 
 ### What I’m making 🛠️
 
@@ -27,6 +27,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 👻🎃 Spooky Season is upon us
+- 🎄❄️ The Holidays and the gathering of my community.
 
-Last Updated: October 4, 2023
+Last Updated: November 25, 2023
