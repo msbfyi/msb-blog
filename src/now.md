@@ -23,7 +23,7 @@ eleventyNavigation:
 ### What I’m making 🛠️
 
 - 🖥️ Home networking - 103.cat Project
-- 🎙️ (Ok, What Went Wrong?)[https://www.okwhatwentwrong.com] - Podcast with my oldest on our learnings in our computer hobbies
+- 🎙️ [Ok, What Went Wrong?](https://www.okwhatwentwrong.com) - Podcast with my oldest on our learnings in our computer hobbies
 
 ### What I’m enjoying ♥️
 
