@@ -18,7 +18,7 @@ The setup hit a few snags initially.
 1. If you are going to use wildcard DNS in the Cloudflare Tunnel, you have to manually setup the wildcard DNS record in Cloudflare. 
 2. In Safari, sometimes the VSCode in browser will not be available. A refresh has solved that so far.
 3. Being able to sync VSCode settings between instances is a massive positive. I've used this for a while, but only between my personal and work machines. Now that any machine I sit at is a dev box, this is going to be a time saver.
-4. My Coder template uses your personal dotenvs. I have to invest the time in those now that I have a use case for them.
+4. My Coder template uses your personal dotfiles. I have to invest the time in those now that I have a use case for them.
 
 ## Side quest
 
