@@ -1,0 +1,13 @@
+---
+layout: page
+title: "Stats"
+eleventyNavigation:
+    key: stats
+    order: 5
+
+---
+
+<h1>{{ title }}</h1>
+<p>This view contains a graph of all blogposts posted</p>
+
+{% postGraph collections.blog %}
