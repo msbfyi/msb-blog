@@ -3,6 +3,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require("markdown-it")
 // const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const EleventyFetch = require('@11ty/eleventy-fetch')
+const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
 
 const { DateTime } = require('luxon')
 
@@ -13,6 +14,8 @@ module.exports = function(eleventyConfig) {
       closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
     }
   })
+
+  eleventyConfig.addPlugin(postGraph)
 
   // eleventyConfig.addPlugin(UpgradeHelper)
 
