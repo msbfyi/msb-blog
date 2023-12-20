@@ -13,8 +13,9 @@ eleventyNavigation:
 
 ### What I’m reading 📚
 
+- ⚔️ [Legends & Lattes](https://www.goodreads.com/en/book/show/61242426) by [Travis Baldree](https://www.goodreads.com/author/show/22182916.Travis_Baldree)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
-- ❤️‍🩹 [Set Boundaries, Find Peace](https://www.penguinrandomhouse.com/books/647316/set-boundaries-find-peace-by-nedra-glover-tawwab/) by Nedra Glover Tawwab
+
 
 ### What I’m watching 📺
 
@@ -28,5 +29,6 @@ eleventyNavigation:
 ### What I’m enjoying ♥️
 
 - 🎄❄️ The Holidays and the gathering of my community.
+- 🎂 Happy Birthday Mom!
 
-Last Updated: November 25, 2023
+Last Updated: December 19, 2023
