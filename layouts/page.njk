@@ -6,15 +6,22 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
     <title>{{ title or metadata.title }}</title>
     {% include "../components/metadata.njk" %}
+    <script type="module">
+      import "/is-land.js";
+    </script>
     <script type="module" src="/assets/svg-icon-sprite.js"></script>
     {% include "../styles.njk" %}
   </head>
 
   <body>
-    {% include "../components/header.njk" %}
-    <main role="main">
-      {{ content | safe }}
-    </main>
-    {% include "../components/footer.njk" %}
+    <is-land on:media="(prefers-reduced-motion: no-preference)">
+          <snow-fall>
+      {% include "../components/header.njk" %}
+        <main role="main">
+          {{ content | safe }}
+        </main>
+        {% include "../components/footer.njk" %}
+        </snow-fall>
+    </is-land>
   </body>
 </html>
