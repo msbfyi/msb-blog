@@ -4,6 +4,7 @@ const markdownIt = require("markdown-it")
 // const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const EleventyFetch = require('@11ty/eleventy-fetch')
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
+const mastoArchive = require('eleventy-plugin-mastoarchive');
 
 const { DateTime } = require('luxon')
 
@@ -17,6 +18,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(postGraph)
 
+  eleventyConfig.addPlugin(mastoArchive, {
+    host: 'https://103.social',
+    userId: '110642609115838278',
+    // removeSyndicates: ['example.com'],
+  });
   // eleventyConfig.addPlugin(UpgradeHelper)
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
@@ -49,7 +55,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('categoryList', require('./src/_11ty/getCategoryList'))
   eleventyConfig.addCollection('categories', require('./src/_11ty/createCategories'))
 
-
+  eleventyConfig.addCollection("103Social", function(collection) {
+    return collection.getFilteredByGlob("/posts/*.md");
+});
+  
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!-- excerpt -->",
