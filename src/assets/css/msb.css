@@ -1,0 +1,12 @@
+.main__title{
+    .logo{
+        display: inline-block;
+    }
+   
+}
+.main__title h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+    
+}
