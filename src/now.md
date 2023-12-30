@@ -20,6 +20,7 @@ eleventyNavigation:
 ### What I’m watching 📺
 
 - 🎄Christmas Specials
+- ⚡ [Percy Jackson and the Olympians](https://www.imdb.com/title/tt10574558/) on Disney+
 
 ### What I’m making 🛠️
 
