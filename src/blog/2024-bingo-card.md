@@ -1,4 +1,5 @@
 ---
+layout: article
 title: 2024 Bingo Card
 date: 2024-01-01T18:17:06.000Z
 category: "Personal"
