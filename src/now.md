@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ### What I’m reading 📚
 
-- 🐲 [Iron Flame](https://www.goodreads.com/book/show/90202302-iron-flame) by [Rebecca Yarros](https://www.goodreads.com/author/show/7539785.Rebecca_Yarros)
+- 🧳 [The Color of Magic](https://www.goodreads.com/book/show/34497.The_Color_of_Magic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
 
@@ -30,7 +30,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🎄❄️ The Holidays and the gathering of my community.
-- 🎂 Happy Birthday Mom!
+- 🎉 The start of 2024!
 
-Last Updated: December 26, 2023
+Last Updated: January 10, 2023
