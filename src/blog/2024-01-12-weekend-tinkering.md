@@ -1,15 +1,13 @@
 ---
+layout: article
 title: Weekend Tinkering
-description: ""
-date: 2024-01-13T05:33:37.740Z
-preview: ""
-draft: false
-tags: []
-categories:
-    - homelab
+date: 2024-01-12
+category: "Homelab"
 ---
 
 Started the weekend updating the Coder server to latest version, and it went surprisingly smoothly.
+
+<!-- excerpt -->
 
 This is the first weekend in a very long time when I have absolutely no plans, and I'm looking forward to just spending some time tinkering on some projects, and getting my dotfiles to a place where I can instantiate a new machine and be able to get up and running.
 
