@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Ok, What Went Wrong? Podcast"
+eleventyNavigation:
+    key: owww
+    order: 8
+pagination:
+  data: collections.owww
+  size: 10
+  alias: articles
+---
+
+<h1>{{ title }}</h1>
+
+{% for episode in owww %}     
+<h3>{{ episode.title }}</h3>     
+{% endfor %}

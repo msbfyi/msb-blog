@@ -55,6 +55,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('categoryList', require('./src/_11ty/getCategoryList'))
   eleventyConfig.addCollection('categories', require('./src/_11ty/createCategories'))
 
+  eleventyConfig.addCollection('videos', require('./src/_data/videos.js'))
+
+
   eleventyConfig.addCollection("103Social", function(collection) {
     return collection.getFilteredByGlob("/posts/*.md");
 });
