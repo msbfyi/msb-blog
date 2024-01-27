@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ### What I’m reading 📚
 
-- 🧳 [The Color of Magic](https://www.goodreads.com/book/show/34497.The_Color_of_Magic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
+- 🧳 [The Light Fantastic](https://www.goodreads.com/book/show/34506.The_Light_Fantastic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
 
@@ -30,6 +30,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🎉 The start of 2024!
+- 🐊 Back from visiting family in Florida & Florida Panters Hockey
 
-Last Updated: January 10, 2023
+Last Updated: January 26, 2023
