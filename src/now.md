@@ -13,6 +13,7 @@ eleventyNavigation:
 
 ### What I’m reading 📚
 
+- 🕵️‍♂️ [Argylle](https://www.goodreads.com/book/show/195608705-argylle) by [Elly Conway](https://www.goodreads.com/author/show/29367407.Elly_Conway)
 - 🧳 [The Light Fantastic](https://www.goodreads.com/book/show/34506.The_Light_Fantastic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
@@ -32,4 +33,4 @@ eleventyNavigation:
 
 - 🐊 Back from visiting family in Florida & Florida Panters Hockey
 
-Last Updated: January 26, 2023
+Last Updated: January 28, 2023
