@@ -15,13 +15,13 @@
 
   <body>
     <is-land on:media="(prefers-reduced-motion: no-preference)">
-          <snow-fall>
+         {# <snow-fall> #}
       {% include "../components/header.njk" %}
         <main role="main">
           {{ content | safe }}
         </main>
         {% include "../components/footer.njk" %}
-        </snow-fall>
+        {# </snow-fall> #}
     </is-land>
   </body>
 </html>
