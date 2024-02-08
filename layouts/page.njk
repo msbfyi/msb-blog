@@ -15,13 +15,11 @@
 
   <body>
     <is-land on:media="(prefers-reduced-motion: no-preference)">
-          <snow-fall>
       {% include "../components/header.njk" %}
         <main role="main">
           {{ content | safe }}
         </main>
         {% include "../components/footer.njk" %}
-        </snow-fall>
     </is-land>
   </body>
 </html>
