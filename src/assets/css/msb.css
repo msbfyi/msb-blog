@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "National Forest";
+    src: url('../fonts/NationalForest/NationalForest.otf') format('opentype');
+}
+@font-face {
+    font-family: "National Forest Print";
+    src: url('../fonts/NationalForest/NationalForest-PrintRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "National Forest Print Bold";
+    src: url('../fonts/NationalForest/NationalForest-PrintBold.otf') format('opentype');
+}
+
+
 .main__title{
     .logo{
         display: inline-block;
@@ -8,5 +23,40 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 12px;
-    
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-family: "National Forest", Calibri, Tahoma, sans-serif;
+    position: relative;
+    margin-top: 25px;
+}
+
+h1{
+    font-family: "National Forest Print", Calibri, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+nav ul 
+{
+    padding-inline-start: 0;
+    li{
+        font-family: "National Forest Print", Calibri, Tahoma, sans-serif;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        text-transform: capitalize;
+        display: inline-block;
+        margin-right: 20px;
+        &:not(:last-child):after{
+            content: "|";
+            margin-left: 20px;
+            color: #fff;
+        }
+    }
 }

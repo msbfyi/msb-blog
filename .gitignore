@@ -3,3 +3,5 @@ package-lock.json
 _site/
 
 .cache/
+.DS_Store
+.vscode/
