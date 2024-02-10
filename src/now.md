@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ---
 
-## My /now page 📆
+# My /now page 📆
 
 (This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
 
