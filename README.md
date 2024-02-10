@@ -1,4 +1,6 @@
-# Eleventy Not So Minimal Blog Starter
+# MSB.fyi - Michael Sean Becker's home on the internet
+
+## Eleventy Not So Minimal Blog Starter
 
 A not so minimal starter for building a website + blog using the Eleventy static site generator.
 
