@@ -13,15 +13,14 @@ eleventyNavigation:
 
 ### What I’m reading 📚
 
-- 🕵️‍♂️ [Argylle](https://www.goodreads.com/book/show/195608705-argylle) by [Elly Conway](https://www.goodreads.com/author/show/29367407.Elly_Conway)
+
 - 🧳 [The Light Fantastic](https://www.goodreads.com/book/show/34506.The_Light_Fantastic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
 
 ### What I’m watching 📺
 
-- 🎄Christmas Specials
-- ⚡ [Percy Jackson and the Olympians](https://www.imdb.com/title/tt10574558/) on Disney+
+- 🕵️‍♂️ [Argylle](https://www.themoviedb.org/movie/848538-argylle) 
 
 ### What I’m making 🛠️
 
@@ -31,6 +30,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🐊 Back from visiting family in Florida & Florida Panters Hockey
+- 🐱 Florida Panthers Hockey
 
-Last Updated: January 28, 2023
+Last Updated: February 9, 2024
