@@ -18,21 +18,21 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-img": "^2.0.0",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy": "3.0.0-alpha.4",
+    "@11ty/eleventy-img": "^4.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-upgrade-help": "^2.0.5",
     "@11ty/is-land": "^4.0.0",
     "@zachleat/snow-fall": "^1.0.2",
     "eleventy-plugin-mastoarchive": "^0.2.0",
-    "luxon": "^2.3.2",
+    "luxon": "^3.4.4",
     "npm-run-all": "^4.1.5",
     "rss-parser": "^3.13.0",
-    "sass": "^1.50.1",
+    "sass": "^1.70.0",
     "svg-icon-sprite": "^1.1.1"
   },
   "devDependencies": {
-    "@rknightuk/eleventy-plugin-post-graph": "^1.0.5"
+    "@rknightuk/eleventy-plugin-post-graph": "^1.0.7"
   }
 }
