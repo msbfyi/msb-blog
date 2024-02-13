@@ -1,0 +1,4 @@
+{
+    "layout": "article",
+    "permalink": "blog/{{ page.date | readableDatePerma }}/{{ title | slugify }}/index.html"
+}

@@ -1,7 +1,6 @@
 ---
-layout: article
 title: 100 Days of Homelab
-date: 2023-01-09
+date: 2023-01-09T05:11:53.089Z
 category: "Homelab"
 ---
 

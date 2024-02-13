@@ -44,6 +44,16 @@ module.exports = function(eleventyConfig) {
     }).setLocale('en').toLocaleString(DateTime.DATE_FULL)
   })
 
+  eleventyConfig.addFilter('readableDatePerma', dateObj => {
+    const postJSDate = DateTime.fromJSDate(dateObj, {
+      zone: 'America/Los_Angeles',
+    }).setLocale('en')
+    const postYear = postJSDate.toLocaleString({ year: 'numeric' });
+    const postMonth = postJSDate.toLocaleString({ month: 'numeric' }).toString().padStart(2, '0');
+    const postDay = postJSDate.toLocaleString({ day: 'numeric' }).toString().padStart(2, '0');
+    return `${postYear}/${postMonth}/${postDay}`;
+  })
+
   eleventyConfig.addFilter("md", function (content = "") {
     return markdownIt({ html: true }).render(content);
   })
