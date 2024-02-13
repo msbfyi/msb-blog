@@ -1,7 +1,7 @@
 ---
 title: Updating Permalinks
 date: 2024-02-13T05:11:53.089Z
-category: "Update"
+categories: ["Update", "Meta"]
 ---
 
 Doing some clean up in preparation of writing more posts.

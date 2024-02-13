@@ -2,7 +2,7 @@
 layout: article
 title: Develop in my personal cloud
 date: 2023-11-25
-category: "Homelab"
+categories: ["Homelab"]
 ---
 
 Took time last night and got Coder setup as a locally running Codespaces alternative.

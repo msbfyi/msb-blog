@@ -6,13 +6,13 @@ module.exports = (collectionApi) => {
   const blogPosts = collectionApi.getFilteredByGlob('./src/blog/*.md')
 
   blogPosts.map((item) => {        
-    let category = item.data.category
-    categories.push(category)
-  })
-
+    let pageCategories = item.data.categories
+      pageCategories.forEach((category) => {
+        categories.push(category)
+      })
+    })
   categories = categories.sort(sortAlphabetically)
   let temp = [...new Set(categories)]
-
   temp.forEach((category) => {
     let slug = strToSlug(category);
 
@@ -23,7 +23,6 @@ module.exports = (collectionApi) => {
       })
     }
   })
-
   return catPages  
 }
 

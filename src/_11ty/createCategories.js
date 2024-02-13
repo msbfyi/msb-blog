@@ -4,21 +4,21 @@ module.exports = (collectionApi) => {
   const categories = {}
 
   collectionApi.getFilteredByGlob('./src/blog/*.md').forEach(item => {
-    let category = item.data.category
-      
-    // Ignore the ones without a category
-    if (typeof category !== 'string')
-    return
+    let category = item.data.categories
+    category.map((cat) => { 
+      // Ignore the ones without a category
+      if (typeof cat !== 'string')
+      return
 
-    const slug = strToSlug(category)
-
-    if (Array.isArray(categories[slug])) {
-      categories[slug].push(item)
-    } else {
-      categories[slug] = [item]
-    }
+      const slug = strToSlug(cat)
+      if (Array.isArray(categories[slug])) {
+        categories[slug].push(cat)
+      } else {
+        categories[slug] = [cat]
+      }
+    })
   })
-
+  console.log(categories)
   return categories  
 }
 

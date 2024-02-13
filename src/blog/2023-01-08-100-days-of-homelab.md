@@ -1,7 +1,7 @@
 ---
 title: 100 Days of Homelab
 date: 2023-01-09T05:11:53.089Z
-category: "Homelab"
+categories:  [ "Homelab" ]
 ---
 
 Four months ago, my oldest started his Freshmen year at Coe College. At drop off, I decided that I needed a distraction.
