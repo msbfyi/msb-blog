@@ -1,3 +1,4 @@
 {
     "layout": "article",
+    "permalink": "blog/{{ title | slugify }}/index.html"
 }
