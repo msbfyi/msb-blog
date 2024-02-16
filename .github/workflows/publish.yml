@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: ".nvmrc"
+            node-version: 20
       
       - name: Build
         uses: TartanLlama/actions-eleventy@v1.3
