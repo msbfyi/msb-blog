@@ -13,13 +13,11 @@ jobs:
 
       # Run a build step here if your project requires
 
-      - uses: actions/setup-node@v3
+      - name: Build
+        uses: TartanLlama/actions-eleventy@v1.3
         with:
-          node-version-file: ".nvmrc"
-          cache: "yarn"
-      - run: yarn install
-      - run: yarn build
-      
+            args: --output _dist
+            install_dependencies: true
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
