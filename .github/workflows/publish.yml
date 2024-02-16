@@ -13,6 +13,10 @@ jobs:
 
       # Run a build step here if your project requires
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+      
       - name: Build
         uses: TartanLlama/actions-eleventy@v1.3
         with:
