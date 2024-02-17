@@ -2,8 +2,10 @@ const fetch = require("node-fetch");
 const { format, subDays } = require("date-fns");
 const fs = require("fs");
 
-const collectionId = process.env.RAINDROP_COLLECTION_ID;
-const token = process.env.RAINDROP_TOKEN;
+// const collectionId = process.env.RAINDROP_COLLECTION_ID;
+// const token = process.env.RAINDROP_TOKEN;
+const collectionId = "41675753";
+const token = "7b28ab59-d109-49e5-a7f2-427d885c2915";
 const today = new Date();
 const lastSaturday = subDays(today, 7);
 const formattedLastSunday = format(lastSaturday, "yyyy-MM-dd");
@@ -23,7 +25,7 @@ async function fetchLinks() {
   });
   return await rsp.json();
 }
-
+console.log("Current directory:", __dirname);
 function writePost(raindrops) {
   const formattedLinks = raindrops.map((raindrop) => {
     const { link, title, excerpt, note } = raindrop;
@@ -31,7 +33,6 @@ function writePost(raindrops) {
     const description = note === "" ? excerpt : note;
     return `* [${title}](${link}) - ${description}`;
   });
-
   let postContent = fs.readFileSync("./scripts/link_template.md", "utf8");
   postContent = postContent.replace("{{date}}", formattedToday);
   postContent = postContent.replace("{{links}}", formattedLinks.join("\n"));

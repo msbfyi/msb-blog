@@ -44,14 +44,24 @@ module.exports = function(eleventyConfig) {
     }).setLocale('en').toLocaleString(DateTime.DATE_FULL)
   })
 
-  eleventyConfig.addFilter('readableDatePerma', dateObj => {
+  eleventyConfig.addFilter('dateFilter', dateObj => {
     const postJSDate = DateTime.fromJSDate(dateObj, {
       zone: 'America/Los_Angeles',
     }).setLocale('en')
     const postYear = postJSDate.toLocaleString({ year: 'numeric' });
     const postMonth = postJSDate.toLocaleString({ month: 'numeric' }).toString().padStart(2, '0');
     const postDay = postJSDate.toLocaleString({ day: 'numeric' }).toString().padStart(2, '0');
-    return `${postYear}/${postMonth}/${postDay}`;
+    return `${postMonth}/${postDay}/${postYear}`;
+  })
+
+  eleventyConfig.addFilter('urlDateFilter', dateObj => {
+    const postJSDate = DateTime.fromJSDate(dateObj, {
+      zone: 'America/Los_Angeles',
+    }).setLocale('en')
+    const postYear = postJSDate.toLocaleString({ year: 'numeric' });
+    const postMonth = postJSDate.toLocaleString({ month: 'numeric' }).toString().padStart(2, '0');
+    const postDay = postJSDate.toLocaleString({ day: 'numeric' }).toString().padStart(2, '0');
+    return `${postYear}-${postMonth}-${postDay}`;
   })
 
   eleventyConfig.addFilter("md", function (content = "") {
