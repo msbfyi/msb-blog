@@ -27,6 +27,7 @@
     "@11ty/is-land": "^4.0.0",
     "@zachleat/snow-fall": "^1.0.2",
     "date-fns": "^3.3.1",
+    "dotenv": "^16.4.4",
     "eleventy-plugin-mastoarchive": "^0.2.0",
     "luxon": "^3.4.4",
     "npm-run-all": "^4.1.5",
