@@ -44,14 +44,24 @@ module.exports = function(eleventyConfig) {
     }).setLocale('en').toLocaleString(DateTime.DATE_FULL)
   })
 
-  eleventyConfig.addFilter('readableDatePerma', dateObj => {
+  eleventyConfig.addFilter('dateFilter', dateObj => {
     const postJSDate = DateTime.fromJSDate(dateObj, {
       zone: 'America/Los_Angeles',
     }).setLocale('en')
     const postYear = postJSDate.toLocaleString({ year: 'numeric' });
     const postMonth = postJSDate.toLocaleString({ month: 'numeric' }).toString().padStart(2, '0');
     const postDay = postJSDate.toLocaleString({ day: 'numeric' }).toString().padStart(2, '0');
-    return `${postYear}/${postMonth}/${postDay}`;
+    return `${postMonth}/${postDay}/${postYear}`;
+  })
+
+  eleventyConfig.addFilter('urlDateFilter', dateObj => {
+    const postJSDate = DateTime.fromJSDate(dateObj, {
+      zone: 'America/Los_Angeles',
+    }).setLocale('en')
+    const postYear = postJSDate.toLocaleString({ year: 'numeric' });
+    const postMonth = postJSDate.toLocaleString({ month: 'numeric' }).toString().padStart(2, '0');
+    const postDay = postJSDate.toLocaleString({ day: 'numeric' }).toString().padStart(2, '0');
+    return `${postYear}-${postMonth}-${postDay}`;
   })
 
   eleventyConfig.addFilter("md", function (content = "") {
@@ -60,7 +70,7 @@ module.exports = function(eleventyConfig) {
 
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('blog', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/blog/*.md').reverse()
+    return collectionApi.getFilteredByGlob('./src/blog/*/*.md').reverse()
   })
   eleventyConfig.addCollection('categoryList', require('./src/_11ty/getCategoryList'))
   eleventyConfig.addCollection('categories', require('./src/_11ty/createCategories'))
