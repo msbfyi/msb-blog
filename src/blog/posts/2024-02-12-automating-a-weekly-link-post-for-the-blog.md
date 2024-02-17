@@ -1,10 +1,11 @@
 ---
 title: Automating a weekly link post for the blog
-description: ""
+description: "Generating a weekly link post based on Raindrop.io and Eleventy"
 date: 2024-02-17T05:00:21.222Z
 preview: ""
 draft: false
-tags: []
+tags:
+    - eleventy
 category: updates
 ---
 
