@@ -56,7 +56,7 @@ function writePost(raindrops) {
     const { link, title, excerpt, note } = raindrop;
     
     const description = note === "" ? excerpt : note;
-    return `* [${title}](${link}) - ${description}`;
+    return `* [${title}](${link}) ${description}`;
   });
   let postContent = fs.readFileSync("./scripts/link_template.md", "utf8");
   postContent = postContent.replace("{{date}}", formattedPostDate);

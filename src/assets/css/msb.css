@@ -60,3 +60,12 @@ nav ul
         }
     }
 }
+
+.link-post ul{
+    li{
+        margin-bottom: 15px;
+        a{
+            display: block;
+        }
+    }
+}
