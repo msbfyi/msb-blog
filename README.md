@@ -1,5 +1,7 @@
 # MSB.fyi - Michael Sean Becker's home on the internet
 
+[![Deploy to Cloudflare Pages](https://github.com/msbfyi/msb-blog/actions/workflows/publish.yml/badge.svg)](https://github.com/msbfyi/msb-blog/actions/workflows/publish.yml)
+
 ## Eleventy Not So Minimal Blog Starter
 
 A not so minimal starter for building a website + blog using the Eleventy static site generator.
