@@ -27,6 +27,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
   eleventyConfig.addLayoutAlias('article', 'layouts/article')
+  eleventyConfig.addLayoutAlias('links', 'layouts/links')
 
   eleventyConfig.addPassthroughCopy('./src/assets')
   // eleventyConfig.addPassthroughCopy('./src/assets/icons')

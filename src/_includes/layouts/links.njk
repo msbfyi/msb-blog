@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<article class="article">
+  <h1>{{ title }}</h1>
+  <small>
+    Published: <time>{{ date | readableDate }}</time>
+    <a class="category" href="/blog/{{ category }}">{{ category }}</a>
+  </small>
+  <div class="link-post">
+    {{ content | safe }}
+  </div>
+</article>

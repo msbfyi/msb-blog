@@ -1,5 +1,5 @@
 {
-    "layout": "article",
+    "layout": "links",
     "hasCustomOGImage": true,
     "eleventyComputed": {
       "title": "This Week in links: {{ date | dateFilter }}"
