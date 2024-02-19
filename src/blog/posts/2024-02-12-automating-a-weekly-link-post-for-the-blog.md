@@ -18,3 +18,9 @@ I have been trying to find a good way to capture links for a while now. I had be
 I recently came across [Sophie](https://social.lol/@sophie)'s solution on her [blog](https://localghost.dev/blog/automated-weekly-links-posts-with-raindrop-io-and-eleventy/). Using [Raindrop](https://raindrop.io/) was a new piece to my workflow, and it's been very easy to use to grab links from RSS and my Mastodon feed.
 
 Next up for the blog is to implement a personal API based to automate my /now page based on [Robb Knight's](https://robbknight.com/) [blog post](https://robbknight.com/2023/12/31/now-page-api.html).
+
+**Update**
+
+First post is live! I've updated Sophie's script to auto archive all of the links in the post into a new nested collection in Raindrop, that uses the "Posted on ..." with the matching date of the post.
+
+The first week is [here](/blog/this-weeks-in-links-2024-02-18/).
