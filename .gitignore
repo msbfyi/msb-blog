@@ -1,9 +1,9 @@
 node_modules/
 package-lock.json
-_site/
+_site/*
 
 .cache/
 .DS_Store
-.vscode/
+.vscode/*
 
 .env
