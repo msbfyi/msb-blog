@@ -53,10 +53,8 @@ async function archiveLinks() {
 }
 function writePost(raindrops) {
   const formattedLinks = raindrops.map((raindrop) => {
-    const { link, title, excerpt, note } = raindrop;
-    
-    const description = note === "" ? excerpt : note;
-    return `* [${title}](${link}) ${description}`;
+    const { link, title, note } = raindrop;
+    return `* [${title}](${link}) ${note}`;
   });
   let postContent = fs.readFileSync("./scripts/link_template.md", "utf8");
   postContent = postContent.replace("{{date}}", formattedPostDate);
