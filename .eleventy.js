@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it")
 const EleventyFetch = require('@11ty/eleventy-fetch')
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
 const mastoArchive = require('eleventy-plugin-mastoarchive');
+const EleventyPluginOgImage = require('eleventy-plugin-og-image');
 
 const { DateTime } = require('luxon')
 
@@ -16,6 +17,23 @@ module.exports = function(eleventyConfig) {
     }
   })
 
+  // TODO finish out https://lewisdale.dev/post/adding-statically-generated-open-graph-images/
+  // https://rknight.me/blog/generating-and-caching-open-graph-images-with-eleventy/
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    outputDir: 'src/assets/ogi',
+		satoriOptions: {
+			fonts: [
+			{
+				name: 'Pixeboy',
+				data: fs.readFileSync('./fonts/Pixeboy.ttf'),
+				weight: 700,
+				style: 'normal',
+			},
+			],
+		},
+	})
+  eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
+  
   eleventyConfig.addPlugin(postGraph)
 
   eleventyConfig.addPlugin(mastoArchive, {
@@ -63,6 +81,7 @@ module.exports = function(eleventyConfig) {
     return markdownIt({ html: true }).render(content);
   })
 
+  
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('blog', (collectionApi) => {
     return collectionApi.getFilteredByGlob('./src/blog/*/*.md').reverse()
