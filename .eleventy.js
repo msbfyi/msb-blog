@@ -30,13 +30,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('links', 'layouts/links')
 
   eleventyConfig.addPassthroughCopy('./src/assets')
-  // eleventyConfig.addPassthroughCopy('./src/assets/icons')
-  // eleventyConfig.addPassthroughCopy('./src/assets/sprite.svg')
-  // eleventyConfig.addPassthroughCopy({
-  //     'node_modules/svg-icon-sprite/dist/svg-icon-sprite.js': 'assets/svg-icon-sprite.js'
-  // })
-  // eleventyConfig.addPassthroughCopy('./src/assets/social-image.jpg')
-
+  
   eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
 
   eleventyConfig.addFilter('readableDate', dateObj => {
