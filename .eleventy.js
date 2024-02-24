@@ -39,9 +39,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(mastoArchive, {
     host: 'https://103.social',
     userId: '110642609115838278',
-    // removeSyndicates: ['example.com'],
   });
-  // eleventyConfig.addPlugin(UpgradeHelper)
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
   eleventyConfig.addLayoutAlias('article', 'layouts/article')
@@ -107,5 +105,5 @@ module.exports = function(eleventyConfig) {
       data: '_data'
     },
     markdownTemplateEngine: 'njk'
-  }
+  } 
 }
