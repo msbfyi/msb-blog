@@ -1,0 +1,13 @@
+{
+    "layout": "wishlist",
+    "hasCustomOGImage": true,
+    "eleventyComputed": {
+      "title": "My Wishlist"
+    },
+    "excerptText": "Links I stumbled on this week from around the Web and Fediverse.",
+    "type": "wishlist",
+    "tags": [
+      "wishlist"
+    ],
+    "permalink": "/blog/wishlist/index.html"
+  }
