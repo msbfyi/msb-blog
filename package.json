@@ -8,6 +8,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "generate-links": "node scripts/compile-links.js",
+    "generate-wishlist": "node scripts/compile-wishlist.js",
     "start": "npm-run-all generate:sprite --parallel watch:*",
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* npx eleventy"
