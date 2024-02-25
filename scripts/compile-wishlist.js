@@ -2,9 +2,8 @@ const fetch = require("node-fetch");
 const { format, subDays, formatISO } = require("date-fns");
 const fs = require("fs");
 // const collectionId = process.env.RAINDROP_WISHLIST_COLLECTION_ID;
-// const token = process.env.RAINDROP_TOKEN;
-const collectionId = "4167541992274753";
-const token = "7b28ab59-d109-49e5-a7f2-427d885c2915";
+const token = process.env.RAINDROP_TOKEN;
+const collectionId = "41992274";
 const today = new Date();
 const lastSaturday = subDays(today, 7);
 const formattedLastSunday = format(lastSaturday, "yyyy-MM-dd");
@@ -34,11 +33,12 @@ function writeWishlist(raindrops) {
     console.log(postContent);
     return;
   }
-  fs.writeFileSync(`./src/blog/wishlist.md`, postContent);
+  fs.writeFileSync(`./src/blog/wishlist/wishlist.md`, postContent);
 }
 
 async function main() {
   fetchWishlist().then((res) => {
+    console.log(res)
     if (res.items.length === 0) {
       console.log("No links found, exiting");
       return;
