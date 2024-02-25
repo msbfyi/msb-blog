@@ -33,7 +33,7 @@ function writeWishlist(raindrops) {
     console.log(postContent);
     return;
   }
-  fs.writeFileSync(`./src/blog/wishlist/wishlist.md`, postContent);
+  fs.writeFileSync(`./src/wishlist/wishlist.md`, postContent);
 }
 
 async function main() {
