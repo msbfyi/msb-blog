@@ -1,6 +1,9 @@
 ---
 date: 2024-02-25T04:37:43Z
 category: "Wishlist"
+eleventyNavigation: 
+    key: wishlist
+    order: 6
 ---
 
 * [Vintage font bundle](https://adamnienow.com/shop/vintage-font-bundle) 
