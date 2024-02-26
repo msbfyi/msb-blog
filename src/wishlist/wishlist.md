@@ -1,11 +1,13 @@
 ---
-date: 2024-02-25T04:37:43Z
+date: 2024-02-26T00:51:43Z
 category: "Wishlist"
-eleventyNavigation: 
+eleventyNavigation:
     key: wishlist
     order: 6
+
 ---
 
+* [Ahsoka Tano™ (Padawan) Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-ahsoka-tano-padawan-hot-toys-913170) 
 * [Vintage font bundle](https://adamnienow.com/shop/vintage-font-bundle) 
 * [Strange New Worlds Klingon War Jacket](https://herowithinstore.com/collections/star-trek/products/klingon-war-jacket) Medium
 * [Star Trek: Strange New Worlds Jacket](https://herowithinstore.com/collections/star-trek/products/strange-new-worlds-preorder-jacket) Small
