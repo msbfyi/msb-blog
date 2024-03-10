@@ -31,6 +31,8 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
 
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
+
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {
       zone: 'America/Los_Angeles',
