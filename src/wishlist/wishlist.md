@@ -1,5 +1,5 @@
 ---
-date: 2024-03-03T01:04:38Z
+date: 2024-03-10T01:05:24Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [Dreamfinders - Dad Hat](https://shopparkfriends.com/products/dreamfinders-dad-hat) 
+* [AT-TE - Minifig Scale](https://www.brickvault.toys/products/at-te) 
 * [Stormtrooper Commander™ Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-stormtrooper-commander-hot-toys-908291?utm_source=Google&utm_medium=OSP&utm_campaign=GoogleMerchant&utm_nooverride=1&gad_source=4) 
 * [Chonk](https://jasonsantamaria.gumroad.com/l/chonk) 
 * [Ahsoka Tano™ (Padawan) Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-ahsoka-tano-padawan-hot-toys-913170) 
