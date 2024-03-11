@@ -1,42 +1,25 @@
 const fetch = require("node-fetch");
 const { format, subDays, formatISO } = require("date-fns");
 const fs = require("fs");
-const collectionId = process.env.RAINDROP_COLLECTION_ID;
 const token = process.env.RAINDROP_TOKEN;
 const today = new Date();
-const lastSaturday = subDays(today, 7);
-const formattedLastSunday = format(lastSaturday, "yyyy-MM-dd");
 const formattedToday = format(today, "yyyy-MM-dd");
 const formattedPostDate = formatISO(today);
 
 async function fetchLinks() {
   // Get content bookmarked between last Sunday and this Saturday inclusive
-  const url = new URL(`https://api.raindrop.io/rest/v1/raindrops/${collectionId}`);
+  const url = new URL("https://api.raindrop.io/rest/v1/raindrops/0?search=%23weekly");
   const rsp = await fetch(url, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
   });
+  console.log(rsp);
   return await rsp.json();
 }
 async function archiveLinks() {
-  // Archive this week's collection
-  const newCollectionURL = new URL(`https://api.raindrop.io/rest/v1/collection`);
-  const colRsp = await fetch(newCollectionURL, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      title: `Posted ${formattedToday}`,
-      parent: { "$id": collectionId },
-    }),
-  });
-  const colData = await colRsp.json();
-  const archiveId = colData.item._id;
-
-  const url = new URL(`https://api.raindrop.io/rest/v1/raindrops/${collectionId}`);
+  // Archive this week's links
+  const url = new URL("https://api.raindrop.io/rest/v1/tags/0");
   const rsp = await fetch(url, {
     method: 'PUT',
     headers: {
@@ -44,8 +27,9 @@ async function archiveLinks() {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      collection: {"$id": archiveId},
-    }),
+      "replace": `Posted ${formattedToday}`,
+      "tags": ["weekly"]
+  }),
   });
   return await rsp.json();
 }
