@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Fedi"
+
+---
+
+<h1>{{ title }}</h1>
+<p>Posts to 103.social</p>
+{%- for article in mastodon.posts -%}
+    {% set absolutePostUrl %}{{ article.source_url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {% set absoluteVaiUrl %}{{ article.via_url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <mastodon-post>
+         {{ article.site }}
+        <div>{{ article.content | md | safe }}</div>
+        <div><a href={{ absolutePostUrl }}><i class="fa-brands fa-mastodon"></i></a> via <a href={{ absoluteVaiUrl }}>{{ article.via }}</a></div>
+    </mastodon-post>
+    {%- endfor -%}
+<p>
+    <a href="https://postgraph.rknight.me/?utm_source=pocket_saves">Eleventy Post Graph via Robb Knight</a>
+</p>

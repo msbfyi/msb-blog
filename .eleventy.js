@@ -4,7 +4,8 @@ const markdownIt = require("markdown-it")
 // const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const EleventyFetch = require('@11ty/eleventy-fetch')
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
-const mastoArchive = require('eleventy-plugin-mastoarchive');
+const fediArchive = require('eleventy-plugin-fediarchive');
+const pfArchive = require('eleventy-plugin-fediarchive');
 
 const { DateTime } = require('luxon')
 
@@ -18,10 +19,25 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(postGraph)
 
-  eleventyConfig.addPlugin(mastoArchive, {
+  eleventyConfig.addPlugin(fediArchive, {
     host: 'https://103.social',
     userId: '110642609115838278',
+    site: '103.social',
+		service: 'mastodon',
+		exclude_reblogs: 'true',
+		exclude_replies: 'false',
   });
+
+  // eleventyConfig.addPlugin(pfArchive, {
+  //   host: 'https://pixelfed.social',
+  //   userId: '593474105161343809',
+  //   site: 'pixelfed.social',
+	// 	service: 'pixelfed',
+	// 	exclude_reblogs: 'true',
+	// 	exclude_replies: 'false',
+  // });
+
+  
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
   eleventyConfig.addLayoutAlias('article', 'layouts/article')

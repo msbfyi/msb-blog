@@ -76,3 +76,13 @@ nav{
 footer{
     text-align: center;
 }
+
+mastodon-post{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1d346d;
+    p {
+        margin-block-start: 0;
+    }
+}
