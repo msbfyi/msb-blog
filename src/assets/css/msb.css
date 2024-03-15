@@ -11,13 +11,10 @@
     font-family: "National Forest Print Bold";
     src: url('../fonts/NationalForest/NationalForest-PrintBold.otf') format('opentype');
 }
-
-
 .main__title{
     .logo{
         display: inline-block;
     }
-   
 }
 .main__title h1 {
     display: inline-block;
@@ -29,7 +26,6 @@
     position: relative;
     margin-top: 25px;
 }
-
 h1{
     font-family: "National Forest Print", Calibri, Tahoma, sans-serif;
     font-weight: 200;
@@ -39,7 +35,6 @@ h1{
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
-
 nav ul 
 {
     padding-inline-start: 0;
@@ -60,7 +55,6 @@ nav ul
         }
     }
 }
-
 .link-post ul{
     li{
         margin-bottom: 15px;
@@ -69,7 +63,6 @@ nav ul
         }
     }
 }
-
 nav{
     text-align: center;
 }
