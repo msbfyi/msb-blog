@@ -1,5 +1,5 @@
 ---
-date: 2024-03-17T01:05:40Z
+date: 2024-03-24T01:07:49Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [Elliot Jay Stocks | Book](https://elliotjaystocks.com/book) 
+* [11ty Conference 2024 Merch Bundle (Limited Edition)](https://merch.11ty.dev/products/11ty-merch-bundle-2024-limited-edition) 
+* [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
 * [Dreamfinders - Dad Hat](https://shopparkfriends.com/products/dreamfinders-dad-hat) 
 * [AT-TE - Minifig Scale](https://www.brickvault.toys/products/at-te) 
 * [Stormtrooper Commander™ Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-stormtrooper-commander-hot-toys-908291?utm_source=Google&utm_medium=OSP&utm_campaign=GoogleMerchant&utm_nooverride=1&gad_source=4) 
