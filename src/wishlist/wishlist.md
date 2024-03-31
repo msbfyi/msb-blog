@@ -1,5 +1,5 @@
 ---
-date: 2024-03-24T01:07:49Z
+date: 2024-03-31T01:08:02Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [S/F Cool Cave](https://www.fjallraven.com/us/en-us/bags-gear/fjallraven-specialized/sf-cool-cave?v=F23234%3a%3a7323450747374) 
 * [Elliot Jay Stocks | Book](https://elliotjaystocks.com/book) 
 * [11ty Conference 2024 Merch Bundle (Limited Edition)](https://merch.11ty.dev/products/11ty-merch-bundle-2024-limited-edition) 
 * [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
