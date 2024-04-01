@@ -1,0 +1,20 @@
+{
+	"featured": [
+	],
+	"current": [
+	],
+	"podcasts": [
+		{ "title": "Ok, What Went Wrong?", "link": "https://okwhatwentwrong.com", "desc": "A podcast for Zane and I to discuss our home lab setup", "image": "oww.jpg", "tags": ["11ty", "Audio"] }
+	],
+	"profile": [
+	],
+	"design": [
+	],
+	"bots": [
+	],
+	"playlists": [
+
+	],
+	"other": [
+	]
+}
