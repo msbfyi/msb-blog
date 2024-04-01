@@ -2,7 +2,7 @@
 layout: page
 title: Now
 eleventyNavigation:
-  key: now
+  key: /now
   order: 3
 
 ---
@@ -14,13 +14,14 @@ eleventyNavigation:
 ### What I’m reading 📚
 
 
-- 🧳 [The Light Fantastic](https://www.goodreads.com/book/show/34506.The_Light_Fantastic) by [Terry Pratchett](https://www.goodreads.com/author/show/1654.Terry_Pratchett)
+- ⚔️ [Bookshops & Bonedust](https://www.goodreads.com/book/show/65213543-bookshops-bonedust) by [Travis Baldree](https://www.goodreads.com/author/show/22182916.Travis_Baldree)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
 
 ### What I’m watching 📺
 
-- 🟦 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
+- 🟦💕 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
+- 🔥🐦 [Star Wars: Rebels](https://thetvdb.com/series/star-wars-rebels)
 
 ### What I’m making 🛠️
 
@@ -32,4 +33,4 @@ eleventyNavigation:
 
 - 🐱 Florida Panthers Hockey
 
-Last Updated: February 11, 2024
+Last Updated: March 31, 2024

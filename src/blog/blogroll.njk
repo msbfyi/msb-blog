@@ -1,0 +1,26 @@
+---
+title: Blogroll
+subtitle: "(noun) a list of hyperlinks to other blogs • <a href='/podcasts/roll'>View Podroll</a>"
+layout: page
+permalink: 'blog/roll/index.html'
+wide: true
+eleventyNavigation:
+  key: Blogroll
+  order: 7
+---
+
+<p>You can subscribe to all of these great blogs in one go by <a href="opml.xml" download="download">downloading the OPML file</a> and importing it into your RSS app of choice.</p>
+
+<div class="blogroll">
+    {%- for blog in blogroll -%}
+        <div class="blogroll--blog">
+            <div class="blogroll--data">
+                <h3>{{ blog.name }}</a></h3>
+                <p class="blog--subtitle"><a href="{{ blog.url }}">Website</a> • <a href="{{ blog.feed }}">RSS</a></p>
+                <p>{{ blog.description }}</p>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>
+
+<p>Check out <a href="https://blogroll.org/">blogroll.org</a> for more excellent blogs to follow.</p>
