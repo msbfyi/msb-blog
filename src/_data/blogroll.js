@@ -42,7 +42,7 @@ module.exports = () => {
             name: 'Shellsharks',
             url: 'https://shellsharks.com',
             feed: 'https://shellsharks.com/feeds/feed.xml',
-            description: 'Mike Sass's IndieWeb site that is providing me with a lot of inspiration on how to organize my site going forward.',
+            description: 'IndieWeb site that is providing me with a lot of inspiration on how to organize my site going forward.',
         }
     ]
 }
