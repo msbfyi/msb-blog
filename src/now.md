@@ -22,8 +22,8 @@ eleventyNavigation:
 
 - 🟦💕 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
 - 🔥🐦 [Star Wars: Rebels](https://thetvdb.com/series/star-wars-rebels)
-- 👨👨 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
-- 🌠🚢 []
+- 👨👨 [Star Wars: The Bad Batch](https://thetvdb.com/series/the-bad-batch)
+- 🌠🚢 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
 
 ### What I’m making 🛠️
 
