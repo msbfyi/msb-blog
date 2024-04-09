@@ -37,6 +37,12 @@ module.exports = () => {
             url: 'https://notes.neatnik.net',
             feed: 'https://notes.neatnik.net/rss.xml',
             description: 'omg.lol creator.',
+        },
+        {
+            name: 'Shellsharks',
+            url: 'https://shellsharks.com',
+            feed: 'https://shellsharks.com/feeds/feed.xml',
+            description: 'Mike Sass's IndieWeb site that is providing me with a lot of inspiration on how to organize my site going forward.',
         }
     ]
 }
