@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "eleventy-plugin-og-image": "^2.1.3"
+  }
+}
