@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it")
 const EleventyFetch = require('@11ty/eleventy-fetch')
 const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
 const mastoArchive = require('eleventy-plugin-mastoarchive');
+require('dotenv').config();
 
 const { DateTime } = require('luxon')
 
@@ -32,6 +33,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
+  eleventyConfig.addShortcode("appVer", () => `${process.env.APP_VERSION}`)
 
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {
