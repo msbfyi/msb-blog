@@ -65,5 +65,5 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.2
         with:
           custom_tag: ${{ steps.semantic-version.outputs.version }}
-          tag_prefix: ""
+          tag_prefix: "v"
           github_token: ${{ secrets.GITHUB_TOKEN }}
