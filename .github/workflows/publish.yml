@@ -62,10 +62,10 @@ jobs:
           # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
           wranglerVersion: '3'
      
-      - name: Bump version and push tag
-        id: tag_version
-        uses: mathieudutour/github-tag-action@v6.2
-        with:
-          custom_tag: ${{ steps.semantic-version.outputs.version }}
-          tag_prefix: "v"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Bump version and push tag
+      #   id: tag_version
+      #   uses: mathieudutour/github-tag-action@v6.2
+      #   with:
+      #     custom_tag: ${{ steps.semantic-version.outputs.version }}
+      #     tag_prefix: "v"
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
