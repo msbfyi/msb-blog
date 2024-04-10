@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
-  eleventyConfig.addShortcode("appVer", () => `${process.env.APP_VERSION}`)
+  eleventyConfig.addShortcode("appVer", () => `${process.env.APP_VERSION || '0.0.0'}`)
 
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {

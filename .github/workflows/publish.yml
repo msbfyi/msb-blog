@@ -24,26 +24,27 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set Semantic Version
+        uses: paulhatch/semantic-version@v5.3.0
+        id: semantic-version
       # Run a build step here if your project requires
 
+      
       - uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
         #   cache: 'npm'
       - run: npm install
       - run: npm run build
+        env:
+          APP_VERSION: ${{ steps.semantic-version.outputs.version }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5 
         with:
           commit_message: Generate wishlist
 
-      - name: Set Semantic Version
-        uses: paulhatch/semantic-version@v5.3.0
-        id: semantic-version
-
       - name: Publish to Cloudflare Pages
-        env:
-          APP_VERSION: ${{ steps.semantic-version.outputs.version }}
+       
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
