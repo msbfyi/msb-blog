@@ -1,5 +1,5 @@
 ---
-date: 2024-04-14T01:25:08Z
+date: 2024-04-21T01:08:20Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo) Travel stream deck
 * [ZIKE Smart Tracking Card for iPhone/iPad/Mac | ZikeTech](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
 * [Space Saving Foldable Nordic Sofa Bed](https://mavigadget.com/products/space-saving-foldable-nordic-sofa-bed/) 
 * [S/F Cool Cave](https://www.fjallraven.com/us/en-us/bags-gear/fjallraven-specialized/sf-cool-cave?v=F23234%3a%3a7323450747374) 
