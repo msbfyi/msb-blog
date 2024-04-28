@@ -1,5 +1,5 @@
 ---
-date: 2024-04-21T01:08:20Z
+date: 2024-04-28T01:09:09Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [: GRECELL 80W Foldable Solar Panel, Portable Solar Charger with USB-A and USB-C QC3.0 (18W) IP67 Waterproof Outdoor Cell Phone Solar Charger for Power Banks Tablets Small Power Station : Patio, Lawn & Garden](https://www.amazon.com/gp/product/B0CH9RKKZT/ref=ewc_pr_img_2?smid=AMZI8I3X9J8N7&psc=1) 
+* [The Monsters Know What They're Doing: Keith Ammann: Q737333642](https://www.booksamillion.com/p/Monsters-Know-What-Theyre-Doing/Keith-Ammann/Q737333642?id=9137590055086) 
 * [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo) Travel stream deck
 * [ZIKE Smart Tracking Card for iPhone/iPad/Mac | ZikeTech](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
 * [Space Saving Foldable Nordic Sofa Bed](https://mavigadget.com/products/space-saving-foldable-nordic-sofa-bed/) 
