@@ -1,5 +1,5 @@
 ---
-date: 2024-05-05T01:09:07Z
+date: 2024-05-12T01:11:18Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [Simple Type Club 2024](https://simplebits.shop/products/stc) I love all these fonts!
+* [Now Available: Upgrade Your HTML V! · Jens Oliver Meiert](https://meiert.com/en/blog/upgrade-your-html-5/) 
 * [: GRECELL 80W Foldable Solar Panel, Portable Solar Charger with USB-A and USB-C QC3.0 (18W) IP67 Waterproof Outdoor Cell Phone Solar Charger for Power Banks Tablets Small Power Station : Patio, Lawn & Garden](https://www.amazon.com/gp/product/B0CH9RKKZT/ref=ewc_pr_img_2?smid=AMZI8I3X9J8N7&psc=1) 
 * [The Monsters Know What They're Doing: Keith Ammann: Q737333642](https://www.booksamillion.com/p/Monsters-Know-What-Theyre-Doing/Keith-Ammann/Q737333642?id=9137590055086) 
 * [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo) Travel stream deck
