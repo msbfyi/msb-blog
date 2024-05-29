@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Now
+permalink: "/now/"
 eleventyNavigation:
   key: /now
   order: 3
-
 ---
 
 # My /now page 📆
@@ -24,9 +24,10 @@ eleventyNavigation:
 ### What I’m watching 📺
 
 - 🟦💕 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
+- 🟦💕 [Doctor Who (2023)](https://thetvdb.com/series/doctor-who-2023)
 - 🔥🐦 [Star Wars: Rebels](https://thetvdb.com/series/star-wars-rebels)
 - 👨👨 [Star Wars: The Bad Batch](https://thetvdb.com/series/the-bad-batch)
-- 🌠🚢😆 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
+- 🌠😆 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
 - 🌠🚢 [Star Trek: Strange New Worlds](https://thetvdb.com/series/star-trek-strange-new-worlds)
 
 ### What I’m making 🛠️
@@ -37,6 +38,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🐱 Florida Panthers Playoffs: Eastern Conference Final
+- 🐱 Florida Panthers Playoffs: Eastern Conference Finals. Go Cats, go!
 
 Last Updated: May 29, 2024
