@@ -1,29 +1,34 @@
 ---
 layout: page
 title: Now
+permalink: "/now/"
 eleventyNavigation:
   key: /now
   order: 3
-
 ---
 
 # My /now page 📆
 
 (This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
 
+## Status
+
+- 🚸 On leave.
+
 ### What I’m reading 📚
 
-
-- ⚔️ [Bookshops & Bonedust](https://www.goodreads.com/book/show/65213543-bookshops-bonedust) by [Travis Baldree](https://www.goodreads.com/author/show/22182916.Travis_Baldree)
+- 🚀 [The Long Way to a Small, Angry Planet](https://www.goodreads.com/book/show/22733729-the-long-way-to-a-small-angry-planet) by [Becky Chambers](https://www.goodreads.com/author/show/17650479.Becky_Chambers)
 - 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
 
 
 ### What I’m watching 📺
 
 - 🟦💕 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
+- 🟦💕 [Doctor Who (2023)](https://thetvdb.com/series/doctor-who-2023)
 - 🔥🐦 [Star Wars: Rebels](https://thetvdb.com/series/star-wars-rebels)
 - 👨👨 [Star Wars: The Bad Batch](https://thetvdb.com/series/the-bad-batch)
-- 🌠🚢 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
+- 🌠😆 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
+- 🌠🚢 [Star Trek: Strange New Worlds](https://thetvdb.com/series/star-trek-strange-new-worlds)
 
 ### What I’m making 🛠️
 
@@ -33,6 +38,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🐱 Florida Panthers Hockey
+- 🐱 Florida Panthers Playoffs: Eastern Conference Finals. Go Cats, go!
 
-Last Updated: April 9, 2024
+Last Updated: May 29, 2024
