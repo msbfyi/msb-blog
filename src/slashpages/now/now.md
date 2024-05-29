@@ -1,0 +1,42 @@
+---
+layout: page
+title: Now
+eleventyNavigation:
+  key: /now
+  order: 3
+
+---
+
+# My /now page 📆
+
+(This is a [now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
+
+## Status
+
+- 🚸 On leave.
+
+### What I’m reading 📚
+
+- 🚀 [The Long Way to a Small, Angry Planet](https://www.goodreads.com/book/show/22733729-the-long-way-to-a-small-angry-planet) by [Becky Chambers](https://www.goodreads.com/author/show/17650479.Becky_Chambers)
+- 🧠 [Building a Second Brain](https://www.buildingasecondbrain.com/book) by Tiago Forte
+
+
+### What I’m watching 📺
+
+- 🟦💕 [Doctor Who](https://thetvdb.com/series/doctor-who) on Plex Live Channels
+- 🔥🐦 [Star Wars: Rebels](https://thetvdb.com/series/star-wars-rebels)
+- 👨👨 [Star Wars: The Bad Batch](https://thetvdb.com/series/the-bad-batch)
+- 🌠🚢😆 [Star Trek: Lower Decks](https://thetvdb.com/series/star-trek-lower-decks)
+- 🌠🚢 [Star Trek: Strange New Worlds](https://thetvdb.com/series/star-trek-strange-new-worlds)
+
+### What I’m making 🛠️
+
+- 🖥️ Home networking - 103.cat Project
+- 🎙️ [Ok, What Went Wrong?](https://www.okwhatwentwrong.com) - Podcast with my oldest on our learnings in our computer hobbies
+- 🤖 Automating this page
+
+### What I’m enjoying ♥️
+
+- 🐱 Florida Panthers Playoffs: Eastern Conference Final
+
+Last Updated: May 29, 2024
