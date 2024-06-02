@@ -1,5 +1,5 @@
 ---
-date: 2024-05-26T01:12:12Z
+date: 2024-06-02T01:12:24Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,10 @@ eleventyNavigation:
 
 ---
 
+* [: LTGEM EVA case for 8Bitdo Ultimate Bluetooth Controller with Charging Dock (White) - Travel : Electronics](https://www.amazon.com/dp/B0BMPN63JC/ref=sspa_dk_detail_2?pd_rd_i=B0BMPN63JC&pd_rd_w=emy8k&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=V4AGX72ZNAABH9DTT43C&pd_rd_wg=xV7Z3&pd_rd_r=fb5764c8-c4b4-4e15-9d02-4398ab4b69a7&s=videogames&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1) 
+* [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
+* [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
+* [LEGO The Legend of Zelda set revealed!](https://brickset.com/article/110379/lego-the-legend-of-zelda-set-revealed) 
 * [Door Shelf Bin](https://www.repairclinic.com/PartDetail/Door-Shelf-Bin/WR71X29264/4590509) 
 * [The Pocket](https://bulletjournal.com/products/pocket) 
 * [Wicked Brick on Instagram: "Protect your collection with our range of Star Wars themed Kallax windows. Embrace the vintage Star Wars feel with our new Chrome IKEA KALLAX windows. Check out out link in bio for details! #IKEA #IKEAhack #StarWars #LEGOStarWars #AFOL #LEGO"](https://www.instagram.com/reel/C6n2vqtrq4s/?utm_source=ig_web_button_native_share) 
@@ -28,5 +32,3 @@ eleventyNavigation:
 * [Ahsoka Tano™ (Padawan) Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-ahsoka-tano-padawan-hot-toys-913170) 
 * [Strange New Worlds Klingon War Jacket](https://herowithinstore.com/collections/star-trek/products/klingon-war-jacket) Medium
 * [Star Trek: Strange New Worlds Jacket](https://herowithinstore.com/collections/star-trek/products/strange-new-worlds-preorder-jacket) Small
-* [Zipper Pulls](https://herowithinstore.com/collections/star-trek/products/zipper-pulls) Boldly Go
-* [Star Trek Away Mission Bag](https://herowithinstore.com/collections/star-trek/products/star-trek-away-mission-bag) Either Enterprise or California class
