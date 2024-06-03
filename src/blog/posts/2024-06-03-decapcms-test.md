@@ -7,3 +7,5 @@ tags:
   - posts
 ---
 Doing a quick test to see if I can get admin capabilities for editing blog posts while still using plain Markdown files.
+
+![](/src/assets/images/decap-test.png)
