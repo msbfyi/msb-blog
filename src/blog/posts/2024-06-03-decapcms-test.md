@@ -2,7 +2,7 @@
 layout: post
 title: DecapCMS test
 category: Update
-date: 2024-06-02T21:16:00.000Z
+date: 2024-06-02T21:25:00.000Z
 tags:
   - posts
 ---
