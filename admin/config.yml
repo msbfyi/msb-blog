@@ -2,7 +2,7 @@ backend:
   name: github
   branch: feature/decapcms
   repo: msbfyi/msb-blog
-media_folder: "./src/assets/images"
+media_folder: "src/assets/images"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
