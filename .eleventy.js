@@ -29,6 +29,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('links', 'layouts/links')
 
   eleventyConfig.addPassthroughCopy('./src/assets')
+  eleventyConfig.addPassthroughCopy('./admin')
   
   eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
 
