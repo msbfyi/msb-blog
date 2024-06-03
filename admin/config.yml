@@ -6,14 +6,13 @@ media_folder: "./src/assets/images"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "./blog/posts" # The path to the folder where the documents are stored
+    folder: "src/blog/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "YYYY-MM-DD-title.md" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Category", name: "category", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Publish Date", name: "date", widget: "datetime", time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "tags", name: "tags", widget: "list", default: ["posts"]}
       - {label: "Body", name: "body", widget: "markdown"}
