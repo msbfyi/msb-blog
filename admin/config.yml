@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: feature/decapcms
+  branch: main
   repo: msbfyi/msb-blog
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
