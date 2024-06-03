@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: DecapCMS test
+title: DecapCMS Setup
 category: Update
 date: 2024-06-02T21:25:00.000Z
 tags:
