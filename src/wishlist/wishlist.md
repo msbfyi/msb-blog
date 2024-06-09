@@ -1,5 +1,5 @@
 ---
-date: 2024-06-02T01:12:24Z
+date: 2024-06-09T01:14:48Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,12 @@ eleventyNavigation:
 
 ---
 
+* [Geeksoutfit Alliances of Planets in the Universe Pins for Sale online](https://www.geeksoutfit.com/products/alliances-of-planets-in-the-universe-pins) 
+* [Geeksoutfit Tatooine Scavenger Union Pins for Sale online](https://www.geeksoutfit.com/products/tatooine-scavenger-union-pins) 
+* [Geeksoutfit Define Normal Pins for Sale online](https://www.geeksoutfit.com/products/define-normal-pins) 
+* [Geeksoutfit Doctor Who Pins for Sale online](https://www.geeksoutfit.com/products/doctor-who-pins) 
+* [Florida Panthers 2024 Stanley Cup Final I Was There Pin](https://flateamshop.com/florida-panthers-2024-stanley-cup-final-i-was-there-pin/) 
+* [Men's Florida Panthers '47 Red/Cream Core Trawler Clean-Up Trucker Adjustable Hat](https://shop.nhl.com/florida-panthers/mens-florida-panthers-47-red/cream-core-trawler-clean-up-trucker-adjustable-hat/t-31641735+p-684478282847909+z-9-1563139420?_ref=p-DLP:m-GRID:i-r1c2:po-5) 
 * [: LTGEM EVA case for 8Bitdo Ultimate Bluetooth Controller with Charging Dock (White) - Travel : Electronics](https://www.amazon.com/dp/B0BMPN63JC/ref=sspa_dk_detail_2?pd_rd_i=B0BMPN63JC&pd_rd_w=emy8k&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=V4AGX72ZNAABH9DTT43C&pd_rd_wg=xV7Z3&pd_rd_r=fb5764c8-c4b4-4e15-9d02-4398ab4b69a7&s=videogames&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1) 
 * [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
 * [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
@@ -26,9 +32,3 @@ eleventyNavigation:
 * [Elliot Jay Stocks | Book](https://elliotjaystocks.com/book) 
 * [11ty Conference 2024 Merch Bundle (Limited Edition)](https://merch.11ty.dev/products/11ty-merch-bundle-2024-limited-edition) 
 * [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
-* [Dreamfinders - Dad Hat](https://shopparkfriends.com/products/dreamfinders-dad-hat) 
-* [AT-TE - Minifig Scale](https://www.brickvault.toys/products/at-te) 
-* [Stormtrooper Commander™ Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-stormtrooper-commander-hot-toys-908291?utm_source=Google&utm_medium=OSP&utm_campaign=GoogleMerchant&utm_nooverride=1&gad_source=4) 
-* [Ahsoka Tano™ (Padawan) Sixth Scale Figure by Hot Toys](https://www.sideshow.com/collectibles/star-wars-ahsoka-tano-padawan-hot-toys-913170) 
-* [Strange New Worlds Klingon War Jacket](https://herowithinstore.com/collections/star-trek/products/klingon-war-jacket) Medium
-* [Star Trek: Strange New Worlds Jacket](https://herowithinstore.com/collections/star-trek/products/strange-new-worlds-preorder-jacket) Small
