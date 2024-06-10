@@ -42,6 +42,6 @@ eleventyNavigation:
 
 ### What I’m enjoying ♥️
 
-- 🐱 Florida Panthers Playoffs: Eastern Conference Finals. Go Cats, go!
+- 🐱 Florida Panthers Playoffs: Stanley Cup Finals. Go Cats, go!
 
-Last Updated: May 29, 2024
+Last Updated: June 9, 2024
