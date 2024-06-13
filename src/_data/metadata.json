@@ -5,8 +5,8 @@
   "description": "The home of Michael Sean Becker on the web.",
   "author": {
     "name": "Michael Sean Becker",
-    "email": "blog@msb.fyi"
+    "email": "hi@msb.fyi"
   },
-  "image": "/assets/transparent_cartoon.png",
+  "image": "/assets/social-image.jpg",
   "feedUrl": "https://msb.fyi/feed.xml"
 }
