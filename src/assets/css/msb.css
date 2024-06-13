@@ -69,3 +69,12 @@ nav{
 footer{
     text-align: center;
 }
+
+.vibing{
+    display: inline;
+    margin-left: 100px;
+    img{
+        /* width: 100px; */
+        height: 125px;
+    }
+}
