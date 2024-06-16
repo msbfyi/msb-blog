@@ -1,5 +1,5 @@
 ---
-date: 2024-06-09T01:14:48Z
+date: 2024-06-16T01:14:44Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [IPPINKA Munieq Tetra Portable Coffee Drip, Stores Flat, 3.5 Cups, Gray, Matte Finish](https://a.co/d/gQXHEIn) 
+* [Varsity Crewneck Sweatshirt](https://www.thegithubshop.com/catalog/product/view/id/67476/s/gh-0010-varsity-crewneck-sweatshirt/category/6663/) 
 * [Geeksoutfit Alliances of Planets in the Universe Pins for Sale online](https://www.geeksoutfit.com/products/alliances-of-planets-in-the-universe-pins) 
 * [Geeksoutfit Tatooine Scavenger Union Pins for Sale online](https://www.geeksoutfit.com/products/tatooine-scavenger-union-pins) 
 * [Geeksoutfit Define Normal Pins for Sale online](https://www.geeksoutfit.com/products/define-normal-pins) 
@@ -30,5 +32,3 @@ eleventyNavigation:
 * [Space Saving Foldable Nordic Sofa Bed](https://mavigadget.com/products/space-saving-foldable-nordic-sofa-bed/) 
 * [S/F Cool Cave](https://www.fjallraven.com/us/en-us/bags-gear/fjallraven-specialized/sf-cool-cave?v=F23234%3a%3a7323450747374) 
 * [Elliot Jay Stocks | Book](https://elliotjaystocks.com/book) 
-* [11ty Conference 2024 Merch Bundle (Limited Edition)](https://merch.11ty.dev/products/11ty-merch-bundle-2024-limited-edition) 
-* [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
