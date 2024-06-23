@@ -1,5 +1,5 @@
 ---
-date: 2024-06-16T01:14:44Z
+date: 2024-06-23T01:13:46Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [RebrickMat - Building/Design Mat](https://merch.rebrickable.com/products/rebrickmat-building-design-mat) 
 * [IPPINKA Munieq Tetra Portable Coffee Drip, Stores Flat, 3.5 Cups, Gray, Matte Finish](https://a.co/d/gQXHEIn) 
 * [Varsity Crewneck Sweatshirt](https://www.thegithubshop.com/catalog/product/view/id/67476/s/gh-0010-varsity-crewneck-sweatshirt/category/6663/) 
 * [Geeksoutfit Alliances of Planets in the Universe Pins for Sale online](https://www.geeksoutfit.com/products/alliances-of-planets-in-the-universe-pins) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [ZIKE Smart Tracking Card for iPhone/iPad/Mac | ZikeTech](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
 * [Space Saving Foldable Nordic Sofa Bed](https://mavigadget.com/products/space-saving-foldable-nordic-sofa-bed/) 
 * [S/F Cool Cave](https://www.fjallraven.com/us/en-us/bags-gear/fjallraven-specialized/sf-cool-cave?v=F23234%3a%3a7323450747374) 
-* [Elliot Jay Stocks | Book](https://elliotjaystocks.com/book) 
