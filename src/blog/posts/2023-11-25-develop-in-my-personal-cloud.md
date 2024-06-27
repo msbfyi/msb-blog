@@ -2,6 +2,7 @@
 layout: article
 title: Develop in my personal cloud
 date: 2023-11-25
+draft: false
 category: "Homelab"
 ---
 

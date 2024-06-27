@@ -2,6 +2,7 @@
 title: Updating Permalinks
 date: 2024-02-13T05:11:53.089Z
 category: "Update"
+draft: false
 ---
 
 UPDATE: Restoring to the original url structure.
