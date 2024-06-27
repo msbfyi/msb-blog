@@ -2,6 +2,7 @@
 title: Weekend Tinkering
 date: 2024-01-12T05:11:53.089Z
 category: "Homelab"
+draft: false
 ---
 
 Started the weekend updating the Coder server to latest version, and it went surprisingly smoothly.

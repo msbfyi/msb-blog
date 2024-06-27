@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
       closingSingleTag: "default" // opt-out of <img/>-style XHTML single tags
     }
   })
-
+ 
   eleventyConfig.addPlugin(postGraph)
 
   eleventyConfig.addPlugin(mastoArchive, {
@@ -69,7 +69,9 @@ module.exports = function(eleventyConfig) {
   
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('blog', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('./src/blog/*/*.md').reverse()
+    console.log(process.env.ELEVENTY_RUN_MODE)
+    return collectionApi.getFilteredByGlob('./src/blog/*/*.md')
+      .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
   })
   eleventyConfig.addCollection('categoryList', require('./src/_11ty/getCategoryList'))
   eleventyConfig.addCollection('categories', require('./src/_11ty/createCategories'))
