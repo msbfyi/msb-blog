@@ -1,0 +1,16 @@
+---
+permalink: /podroll/opml.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>RSS Feeds for all Michael Sean Becker's Podroll</title>
+        <dateCreated>{{ page.date | dateToRfc822 }}</dateCreated>
+    </head>
+    <body>
+        {%- for site in podroll -%}
+            <outline text="{{ site.name }}" title="{{ site.name }}" type="rss" xmlUrl="{{ site.feed }}" htmlUrl="{{ site.url }}"/>
+        {% endfor %}
+    </body>
+</opml>

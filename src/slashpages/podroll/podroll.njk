@@ -1,0 +1,26 @@
+---
+title: Podroll
+subtitle: "(noun) a list of hyperlinks to podcasts • <a href='/blogroll'>View Blogroll</a>"
+layout: page
+permalink: 'podroll/index.html'
+wide: true
+eleventyNavigation:
+  key: Podroll
+  order: 8
+---
+
+<p>You can subscribe to all of these great blogs in one go by <a href="opml.xml" download="download">downloading the OPML file</a> and importing it into your RSS app of choice.</p>
+
+<div class="podroll">
+    {%- for podcast in podroll -%}
+        <div class="blogroll--blog">
+            <div class="blogroll--data">
+                <h3>{{ podcast.name }}</a></h3>
+                <p class="blog--subtitle"><a href="{{ podcast.url }}">Website</a> • <a href="{{ podcast.feed }}">RSS</a></p>
+                <p>{{ podcast.description }}</p>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>
+
+<p>Check out <a href="https://blogroll.org/">blogroll.org</a> for more excellent blogs to follow.</p>

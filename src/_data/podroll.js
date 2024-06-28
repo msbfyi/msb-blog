@@ -1,0 +1,56 @@
+module.exports = () => {
+    return [
+        {
+            name: 'Panther Pourri: A Florida Hockey Now Podcast',
+            url: 'https://www.pantherpourri.com',
+            feed: 'https://feeds.transistor.fm/panther-pourri',
+        },
+        {
+            name: 'The Panthers Podcast Network',
+            url: 'https://panthers.nhl.com',
+            feed: 'https://feeds.simplecast.com/gevLqI5U',
+        },
+        {
+            name: 'Hemispheric Views',
+            url: 'https://hemisphericviews.com',
+            feed: 'https://listen.hemisphericviews.com/rss',
+        },
+      
+        {
+            name: 'Goldie On Ice Podcast',
+            url: 'https://goldieonice.podbean.com',
+            feed: 'https://www.podbean.com/site/podcatcher/index/blog/EeKLeCOwC6J',
+        },
+        {
+            name: 'Corner fo the Galaxy',
+            url: 'http://cornerofthegalaxy.com',
+            feed: 'http://feeds.soundcloud.com/users/soundcloud:users:94969181/sounds.rss',
+        },
+    
+        {
+            name: 'Retro Disney World Podcast',
+            url: 'https://www.retrowdw.com',
+            feed: 'http://podcast.retrodisneyworld.com/feed.xml',
+        },
+        {
+            name: 'The Squadcast',
+            url: 'https://soundcloud.com/squadcast96',
+            feed: 'https://feeds.soundcloud.com/users/soundcloud:users:254676785/sounds.rss',
+        },
+        {
+            name: 'Reconcilable Differences',
+            url: 'https://www.relay.fm/rd',
+            feed: 'https://www.relay.fm/rd/feed',
+        },
+        {
+            name: 'Accidental Tech Podcast',
+            url: 'https://atp.fm',
+            feed: 'https://cdn.atp.fm/rss/public',
+        },
+        {
+            name: 'What Bitcoin Did with Peter McCormack',
+            url: 'https://www.whatbitcoindid.com/podcast/',
+            feed: 'https://www.whatbitcoindid.com/podcast?format=rss',
+        }
+    ]
+}
