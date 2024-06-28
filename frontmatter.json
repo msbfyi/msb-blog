@@ -53,5 +53,15 @@
       "title": "posts",
       "path": "[[workspace]]/src/blog/posts"
     }
-  ]
+  ],
+  "frontMatter.content.snippets": {
+    "Image snippet": {
+      "description": "MD image insert",
+      "body": [
+        "",
+        "{{< caption \\\"[[&mediaUrl]]\\\" \\\"[[caption]]\\\" >}}"
+      ],
+      "isMediaSnippet": true
+    }
+  }
 }
