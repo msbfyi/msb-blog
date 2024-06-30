@@ -1,5 +1,5 @@
 ---
-date: 2024-06-23T01:13:46Z
+date: 2024-06-30T01:15:43Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,12 @@ eleventyNavigation:
 
 ---
 
+* [Florida Panthers Hockey Tank](https://benchclearers.com/collections/hockey-tanks/products/florida-panthers-hockey-tank?variant=18759712407670) 
+* [Florida Panthers 2024 Stanley Cup Champions Perfect Cut Decal](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-perfect-cut-decal/) 
+* [Florida Panthers 2024 Stanley Cup Champions Beer Can Glass](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-beer-can-glass/) 
+* [Florida Panthers WinCraft 2024 Stanley Cup Champions Collector Pin](https://shop.nhl.com/florida-panthers/florida-panthers-wincraft-2024-stanley-cup-champions-collector-pin/t-20319513+p-803334646228262+z-9-2121482564?_ref=p-CLP:m-GRID:i-r7c0:po-21) 
+* [Men's Florida Panthers Fanatics Red 2024 Stanley Cup Champions Core Patch Flex Hat](https://shop.nhl.com/florida-panthers/mens-florida-panthers-fanatics-red-2024-stanley-cup-champions-core-patch-flex-hat/t-20316291+p-797701733170262+z-9-935468760?_ref=p-CLP:m-GRID:i-r13c0:po-39&sku=205820253) L/XL
+* [Men's Florida Panthers Fanatics Red 2024 Stanley Cup Champions Core Patch Unstructured Adjustable Hat](https://shop.nhl.com/florida-panthers/mens-florida-panthers-fanatics-red-2024-stanley-cup-champions-core-patch-unstructured-adjustable-hat/t-31972846+p-793390730869335+z-9-499041565?_ref=p-CLP:m-GRID:i-r6c2:po-20) 
 * [RebrickMat - Building/Design Mat](https://merch.rebrickable.com/products/rebrickmat-building-design-mat) 
 * [IPPINKA Munieq Tetra Portable Coffee Drip, Stores Flat, 3.5 Cups, Gray, Matte Finish](https://a.co/d/gQXHEIn) 
 * [Varsity Crewneck Sweatshirt](https://www.thegithubshop.com/catalog/product/view/id/67476/s/gh-0010-varsity-crewneck-sweatshirt/category/6663/) 
@@ -26,9 +32,3 @@ eleventyNavigation:
 * [Tiki tOny's Enchanted Yum Grub Tiki Mug, sculpt by Thor - Limited Edit – Tikiland Trading Co.](https://www.tikilandtrading.com/collections/tikimugs/products/tiki-tonys-enchanted-yum-grub-tiki-mug?variant=44220615033073) 
 * [Simple Type Club 2024](https://simplebits.shop/products/stc) I love all these fonts!
 * [Now Available: Upgrade Your HTML V! · Jens Oliver Meiert](https://meiert.com/en/blog/upgrade-your-html-5/) 
-* [: GRECELL 80W Foldable Solar Panel, Portable Solar Charger with USB-A and USB-C QC3.0 (18W) IP67 Waterproof Outdoor Cell Phone Solar Charger for Power Banks Tablets Small Power Station : Patio, Lawn & Garden](https://www.amazon.com/gp/product/B0CH9RKKZT/ref=ewc_pr_img_2?smid=AMZI8I3X9J8N7&psc=1) 
-* [The Monsters Know What They're Doing: Keith Ammann: Q737333642](https://www.booksamillion.com/p/Monsters-Know-What-Theyre-Doing/Keith-Ammann/Q737333642?id=9137590055086) 
-* [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo) Travel stream deck
-* [ZIKE Smart Tracking Card for iPhone/iPad/Mac | ZikeTech](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
-* [Space Saving Foldable Nordic Sofa Bed](https://mavigadget.com/products/space-saving-foldable-nordic-sofa-bed/) 
-* [S/F Cool Cave](https://www.fjallraven.com/us/en-us/bags-gear/fjallraven-specialized/sf-cool-cave?v=F23234%3a%3a7323450747374) 
