@@ -12,13 +12,16 @@
     <script type="module" src="/assets/svg-icon-sprite.js"></script>
     <script type="module" src="/assets/snow-fall.js"></script>
     {% include "../styles.njk" %}
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="26e14fcd-d07c-4b15-b95c-ab93675e5ca8"></script>
+    {%- if env.ELEVENTY_RUN_MODE !== "serve" -%}
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="26e14fcd-d07c-4b15-b95c-ab93675e5ca8"></script>
+    {%- endif -%}
   </head>
 
   <body>
     {# <snow-fall mode="page"></snow-fall> #}
     {% include "../components/header.njk" %}
     <main role="main">
+      {{ env.ELEVENTY_RUN_MODE }}
       {{ content | safe }}
     </main>
     {% include "../components/footer.njk" %}
