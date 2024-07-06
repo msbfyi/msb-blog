@@ -86,6 +86,8 @@ module.exports = function(eleventyConfig) {
     excerpt_alias: 'excerpt'
   })
 
+  eleventyConfig.addGlobalData("env", process.env);
+
   return {
     dir: {
       input: 'src',
