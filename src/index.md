@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MSB.fyi
+title: MSB.fyi | Home of Michael Sean Becker
 eleventyNavigation:
   key: home
   order: 1
