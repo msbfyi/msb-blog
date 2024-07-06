@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: MSB.fyi
 eleventyNavigation:
   key: home
   order: 1
