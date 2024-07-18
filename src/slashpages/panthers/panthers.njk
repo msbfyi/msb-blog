@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Florida Panthers"
+eleventyNavigation:
+    key: panthers
+    order: 10
+
+---
+
+<h1>{{ title }}</h1>
+
+<h2>{{ panthers.schedule2425.currentSeason }}</h2>
+
+    {%- for games in panthers.schedule2425 -%}
+
+     <div class="blogroll--blog">
+            <div class="blogroll--data">
+                <h3>{{ games.gameDate }}</a> | test</h3>
+            </div>
+        </div>
+    {%- endfor -%}
