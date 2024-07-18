@@ -1,0 +1,31 @@
+---
+layout: page
+title: "Florida Panthers"
+permalink: "/panthers/2023-2024/"
+
+---
+
+<h1>{{ title }}</h1>
+
+<h2>{{ panthers.schedule2324.currentSeason }}</h2>
+    {%- for games in panthers.schedule2324.games -%}
+     <div class="blogroll--blog">
+            <div class="blogroll--data">
+                <h3>{{ games.gameDate }}</a></h3>
+                 {% if games.seriesStatus %}
+                    <div>{% if games.seriesStatus.round !== 4 %}Stanley Cup Playoffs {% endif %}{{ games.seriesStatus.seriesTitle }}</div>
+                    <div>
+                        Game {{ games.seriesStatus.gameNumberOfSeries }}
+                    </div>
+                {% endif %}
+                <div>
+                  {{ games.homeTeam.placeName.default }} {{ games.homeTeam.score }} vs {{ games.awayTeam.placeName.default }} {{ games.awayTeam.score }}
+                </div>
+            </div>
+        </div>
+                <div>
+                  <img src={{ games.homeTeam.logo }} /> vs <img src={{ games.awayTeam.logo }} /> 
+                  {{ games.homeTeam.placeName.default }} vs {{ games.awayTeam.placeName.default }}
+                </div>
+    {%- endfor -%}
+

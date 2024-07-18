@@ -11,15 +11,3 @@ eleventyNavigation:
 <h1>{{ title }}</h1>
 
 <h2>{{ panthers.schedule2425.currentSeason }}</h2>
-
-    {%- for games in panthers.schedule2425.games -%}
-     <div class="blogroll--blog">
-            <div class="blogroll--data">
-                <h3>{{ games.gameDate }}</a></h3>
-                <div>
-                  <img src={{ games.homeTeam.logo }} /> vs <img src={{ games.awayTeam.logo }} /> 
-                  {{ games.homeTeam.placeName.default }} vs {{ games.awayTeam.placeName.default }}
-                </div>
-            </div>
-        </div>
-    {%- endfor -%}
