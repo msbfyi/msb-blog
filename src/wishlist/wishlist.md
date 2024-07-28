@@ -1,5 +1,5 @@
 ---
-date: 2024-07-21T01:17:10Z
+date: 2024-07-28T01:17:32Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Ultimate Dueling Mystery Box - NEO Sabers™](https://neosabers.com/products/mystery-lightsaber/) 
 * [Custom #00 Florida Panthers White Jersey Away Primegreen Authentic Pro - Jersey Club](https://jerseyclub.shop/custom-00-florida-panthers-white-jersey-away-primegreen-authentic-pro/) 
 * [2022 Florida Panthers Matthew Tkachuk Star Wars Night Black T-Shirt - Jersey Club](https://jerseyclub.shop/2022-florida-panthers-matthew-tkachuk-star-wars-night-black-t-shirt/) 
 * [Florida Panthers 2023 St. Patricks Day Primegreen Authentic Green Jersey Men - Jersey Club](https://jerseyclub.shop/florida-panthers-2023-st-patricks-day-primegreen-authentic-green-jersey-men/) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [LEGO The Legend of Zelda set revealed!](https://brickset.com/article/110379/lego-the-legend-of-zelda-set-revealed) 
 * [Door Shelf Bin](https://www.repairclinic.com/PartDetail/Door-Shelf-Bin/WR71X29264/4590509) 
 * [The Pocket](https://bulletjournal.com/products/pocket) 
-* [Wicked Brick on Instagram: "Protect your collection with our range of Star Wars themed Kallax windows. Embrace the vintage Star Wars feel with our new Chrome IKEA KALLAX windows. Check out out link in bio for details! #IKEA #IKEAhack #StarWars #LEGOStarWars #AFOL #LEGO"](https://www.instagram.com/reel/C6n2vqtrq4s/?utm_source=ig_web_button_native_share) 
