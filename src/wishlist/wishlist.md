@@ -1,5 +1,5 @@
 ---
-date: 2024-08-04T01:17:50Z
+date: 2024-08-11T01:19:03Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [EP–1320 medieval - teenage engineering](https://teenage.engineering/products/ep-1320) 
 * [Ultimate Dueling Mystery Box - NEO Sabers™](https://neosabers.com/products/mystery-lightsaber/) 
 * [Custom #00 Florida Panthers White Jersey Away Primegreen Authentic Pro - Jersey Club](https://jerseyclub.shop/custom-00-florida-panthers-white-jersey-away-primegreen-authentic-pro/) 
 * [2022 Florida Panthers Matthew Tkachuk Star Wars Night Black T-Shirt - Jersey Club](https://jerseyclub.shop/2022-florida-panthers-matthew-tkachuk-star-wars-night-black-t-shirt/) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
 * [LEGO The Legend of Zelda set revealed!](https://brickset.com/article/110379/lego-the-legend-of-zelda-set-revealed) 
 * [Door Shelf Bin](https://www.repairclinic.com/PartDetail/Door-Shelf-Bin/WR71X29264/4590509) 
-* [The Pocket](https://bulletjournal.com/products/pocket) 
