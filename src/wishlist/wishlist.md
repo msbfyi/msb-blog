@@ -1,5 +1,5 @@
 ---
-date: 2024-08-18T01:17:50Z
+date: 2024-08-25T01:19:40Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Companiondeck MK2 Portable Streamdeck MK2 Case - Etsy](https://www.etsy.com/listing/1184297751/companiondeck-mk2-portable-streamdeck?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-electronics_and_accessories-computers_and_peripherals-computers&utm_custom1=_k_Cj0KCQjww5u2BhDeARIsALBuLnONiN4UUrCDnqk8HVUZJg51OmNZNuUR2BPTGvksdSnYXauKnsGwk1EaAmi9EALw_wcB_k_&utm_content=go_12573079807_124822096732_507896635919_pla-353923937411_c__1184297751_539186166&utm_custom2=12573079807&gad_source=1&gbraid=0AAAAADtcfRIS3LTPNGUidsg2qaqephKxX&gclid=Cj0KCQjww5u2BhDeARIsALBuLnONiN4UUrCDnqk8HVUZJg51OmNZNuUR2BPTGvksdSnYXauKnsGwk1EaAmi9EALw_wcB) 
 * [EP–1320 medieval - teenage engineering](https://teenage.engineering/products/ep-1320) 
 * [Ultimate Dueling Mystery Box - NEO Sabers™](https://neosabers.com/products/mystery-lightsaber/) 
 * [Custom #00 Florida Panthers White Jersey Away Primegreen Authentic Pro - Jersey Club](https://jerseyclub.shop/custom-00-florida-panthers-white-jersey-away-primegreen-authentic-pro/) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
 * [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
 * [LEGO The Legend of Zelda set revealed!](https://brickset.com/article/110379/lego-the-legend-of-zelda-set-revealed) 
-* [Door Shelf Bin](https://www.repairclinic.com/PartDetail/Door-Shelf-Bin/WR71X29264/4590509) 
