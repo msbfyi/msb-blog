@@ -1,5 +1,5 @@
 ---
-date: 2024-09-08T01:22:50Z
+date: 2024-09-15T01:25:46Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [ActivityPub](https://www.oreilly.com/library/view/activitypub/9781098162733/ch01.html) 
 * [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
 * [Starfleet 2257 Away - Away Team [Mens]](https://www.volantedesign.us/collections/star-trek/products/starfleet-2257-away-away-team-mens) 
 * [Companiondeck MK2 Portable Streamdeck MK2 Case - Etsy](https://www.etsy.com/listing/1184297751/companiondeck-mk2-portable-streamdeck?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-electronics_and_accessories-computers_and_peripherals-computers&utm_custom1=_k_Cj0KCQjww5u2BhDeARIsALBuLnONiN4UUrCDnqk8HVUZJg51OmNZNuUR2BPTGvksdSnYXauKnsGwk1EaAmi9EALw_wcB_k_&utm_content=go_12573079807_124822096732_507896635919_pla-353923937411_c__1184297751_539186166&utm_custom2=12573079807&gad_source=1&gbraid=0AAAAADtcfRIS3LTPNGUidsg2qaqephKxX&gclid=Cj0KCQjww5u2BhDeARIsALBuLnONiN4UUrCDnqk8HVUZJg51OmNZNuUR2BPTGvksdSnYXauKnsGwk1EaAmi9EALw_wcB) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Florida Panthers 2024 Stanley Cup Final I Was There Pin](https://flateamshop.com/florida-panthers-2024-stanley-cup-final-i-was-there-pin/) 
 * [Men's Florida Panthers '47 Red/Cream Core Trawler Clean-Up Trucker Adjustable Hat](https://shop.nhl.com/florida-panthers/mens-florida-panthers-47-red/cream-core-trawler-clean-up-trucker-adjustable-hat/t-31641735+p-684478282847909+z-9-1563139420?_ref=p-DLP:m-GRID:i-r1c2:po-5) 
 * [: LTGEM EVA case for 8Bitdo Ultimate Bluetooth Controller with Charging Dock (White) - Travel : Electronics](https://www.amazon.com/dp/B0BMPN63JC/ref=sspa_dk_detail_2?pd_rd_i=B0BMPN63JC&pd_rd_w=emy8k&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=V4AGX72ZNAABH9DTT43C&pd_rd_wg=xV7Z3&pd_rd_r=fb5764c8-c4b4-4e15-9d02-4398ab4b69a7&s=videogames&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1) 
-* [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
