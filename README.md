@@ -20,7 +20,12 @@ In a commit, you must start the commit message with the key word to bump major o
 
 major.minor.patch
 
+### How to tag
+
+In a commit, start with [XXX] following the patterns below. If multiple prefixes are used in a pull request it will default to the highest version and only increment by one.
+
 Major version: [Breaking]
+
 Minor version: [Feature]
 
 [^1]: Badges from https://badges.pages.dev/
