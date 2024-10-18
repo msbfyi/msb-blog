@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
-const { format, subDays, formatISO } = require("date-fns");
-const fs = require("fs");
+import fetch from "node-fetch";
+import { format, subDays, formatISO } from "date-fns";
+import { readFileSync, writeFileSync } from "fs";
 // const collectionId = process.env.RAINDROP_WISHLIST_COLLECTION_ID;
 const token = process.env.RAINDROP_TOKEN;
 const collectionId = "41992274";
@@ -25,7 +25,7 @@ function writeWishlist(raindrops) {
     const { link, title, note } = raindrop;
     return `* [${title}](${link}) ${note}`;
   });
-  let postContent = fs.readFileSync("./scripts/wishlist_template.md", "utf8");
+  let postContent = readFileSync("./scripts/wishlist_template.md", "utf8");
   postContent = postContent.replace("{{date}}", formattedPostDate);
   postContent = postContent.replace("{{links}}", formattedLinks.join("\n"));
   const filename = `./src/blog/wishlist.md`;
@@ -33,7 +33,7 @@ function writeWishlist(raindrops) {
     console.log(postContent);
     return;
   }
-  fs.writeFileSync(`./src/wishlist/wishlist.md`, postContent);
+  writeFileSync(`./src/wishlist/wishlist.md`, postContent);
 }
 
 async function main() {

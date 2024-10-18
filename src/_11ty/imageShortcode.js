@@ -1,6 +1,7 @@
-const Image = require('@11ty/eleventy-img')
+import Image from '@11ty/eleventy-img';
+import { generateHTML } from '@11ty/eleventy-img';
 
-const imageShortcode = async (
+export const imageShortcode = async (
   relativeSrc,
   alt,
   className,
@@ -13,19 +14,18 @@ const imageShortcode = async (
     formats,
     outputDir: './_site/assets/images/generated/',
     urlPath: '/assets/images/generated/',
-  })
+  });
 
   const imageAttributes = {
     alt,
     sizes,
     loading: 'lazy',
     decoding: 'async',
+  };
+
+  if (className) {
+    imageAttributes['class'] = className;
   }
 
-  if(className) {imageAttributes['class'] = className }
-
-  return Image.generateHTML(imageMetadata, imageAttributes)
-}
-
-
-module.exports.imageShortcode = imageShortcode;
+  return generateHTML(imageMetadata, imageAttributes);
+};
