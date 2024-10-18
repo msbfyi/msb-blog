@@ -12,5 +12,15 @@
 
 Based on [Eleventy Not So Minimal Blog Starter](https://github.com/mangamaui/eleventy-not-so-minimal-blog-starter)
 
+## Versions
+
+I'm using [paulhatch/semantic-version@v5.3.0](https://github.com/paulhatch/semantic-version/tree/v5.3.0/) to manage bumping verions for commits.
+
+In a commit, you must start the commit message with the key word to bump major or minor versions. A commit with out those will update the patch.
+
+major.minor.patch
+
+Major version: [Breaking]
+Minor version: [Feature]
 
 [^1]: Badges from https://badges.pages.dev/
