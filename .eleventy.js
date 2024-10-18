@@ -1,15 +1,18 @@
-const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
-const markdownIt = require("markdown-it")
-// const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
-const EleventyFetch = require('@11ty/eleventy-fetch')
-const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
-const mastoArchive = require('eleventy-plugin-mastoarchive');
-require('dotenv').config();
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
+import pluginRss from '@11ty/eleventy-plugin-rss'
+import markdownIt from "markdown-it"
+import EleventyFetch from '@11ty/eleventy-fetch'
+import postGraph from '@rknightuk/eleventy-plugin-post-graph'
+import mastoArchive from 'eleventy-plugin-mastoarchive'
+import dotenv from 'dotenv'
+import { imageShortcode } from './src/_11ty/imageShortcode.js'
+import getCategoryList from  './src/_11ty/getCategoryList.js'
+import createCategories from  './src/_11ty/createCategories.js'
+import { DateTime } from 'luxon'
 
-const { DateTime } = require('luxon')
+dotenv.config();
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
@@ -31,7 +34,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets')
   eleventyConfig.addPassthroughCopy('./admin')
   
-  eleventyConfig.addNunjucksAsyncShortcode('image', require('./src/_11ty/imageShortcode').imageShortcode)
+  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode)
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
   eleventyConfig.addShortcode("appVer", () => `v${process.env.APP_VERSION || '0.0.0'}`)
@@ -73,8 +76,8 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob('./src/blog/*/*.md')
       .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
   })
-  eleventyConfig.addCollection('categoryList', require('./src/_11ty/getCategoryList'))
-  eleventyConfig.addCollection('categories', require('./src/_11ty/createCategories'))
+  eleventyConfig.addCollection('categoryList', getCategoryList)
+  eleventyConfig.addCollection('categories', createCategories)
 
   eleventyConfig.addCollection("103Social", function(collection) {
     return collection.getFilteredByGlob("/posts/*.md");

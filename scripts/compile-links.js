@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
-const { format, subDays, formatISO } = require("date-fns");
-const fs = require("fs");
+import fetch from "node-fetch";
+import { format, subDays, formatISO } from "date-fns";
+import { readFileSync, writeFileSync } from "fs";
 const token = process.env.RAINDROP_TOKEN;
 const today = new Date();
 const formattedToday = format(today, "yyyy-MM-dd");
@@ -38,7 +38,7 @@ function writePost(raindrops) {
     const { link, title, note } = raindrop;
     return `* [${title}](${link}) ${note}`;
   });
-  let postContent = fs.readFileSync("./scripts/link_template.md", "utf8");
+  let postContent = readFileSync("./scripts/link_template.md", "utf8");
   postContent = postContent.replace("{{date}}", formattedPostDate);
   postContent = postContent.replace("{{links}}", formattedLinks.join("\n"));
   const filename = `./src/blog/links/${formattedToday}.md`;
@@ -46,7 +46,7 @@ function writePost(raindrops) {
     console.log(postContent);
     return;
   }
-  fs.writeFileSync(`./src/blog/links/${formattedToday}.md`, postContent);
+  writeFileSync(`./src/blog/links/${formattedToday}.md`, postContent);
 }
 
 async function main() {

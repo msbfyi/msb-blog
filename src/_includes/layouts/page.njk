@@ -21,7 +21,6 @@
     {# <snow-fall mode="page"></snow-fall> #}
     {% include "../components/header.njk" %}
     <main role="main">
-      {{ env.ELEVENTY_RUN_MODE }}
       {{ content | safe }}
     </main>
     {% include "../components/footer.njk" %}

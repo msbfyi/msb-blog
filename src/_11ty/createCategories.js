@@ -1,6 +1,6 @@
-const slugify = require('slugify')
+import slugify from 'slugify'
 
-module.exports = (collectionApi) => {
+export default (collectionApi) => {
   const categories = {}
 
   collectionApi.getFilteredByGlob('./src/blog/*.md').forEach(item => {
