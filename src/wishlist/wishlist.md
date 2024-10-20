@@ -1,5 +1,5 @@
 ---
-date: 2024-10-13T01:26:29Z
+date: 2024-10-20T01:34:49Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [AirCard™ - Card-sized wallet tracker](https://rollingsquare.com/products/aircard) 
+* [Three Leaf Brooch](https://knightweave.com/products/three-leaf-brooch?pr_prod_strat=jac&pr_rec_id=3b649b396&pr_rec_pid=9563155661110&pr_ref_pid=9100503384374&pr_seq=uniform) 
+* [Mastering Bitcoin: Programming the Open Blockchain|eBook](https://www.barnesandnoble.com/w/mastering-bitcoin-andreas-m-antonopoulos/1126323222?ean=9781098150051) 
 * [ActivityPub](https://www.oreilly.com/library/view/activitypub/9781098162733/ch01.html) 
 * [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
 * [Starfleet 2257 Away - Away Team [Mens]](https://www.volantedesign.us/collections/star-trek/products/starfleet-2257-away-away-team-mens) 
@@ -29,6 +32,3 @@ eleventyNavigation:
 * [: LTGEM EVA case for 8Bitdo Ultimate Bluetooth Controller with Charging Dock (White) - Travel : Electronics](https://www.amazon.com/dp/B0BMPN63JC/ref=sspa_dk_detail_2?pd_rd_i=B0BMPN63JC&pd_rd_w=emy8k&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=V4AGX72ZNAABH9DTT43C&pd_rd_wg=xV7Z3&pd_rd_r=fb5764c8-c4b4-4e15-9d02-4398ab4b69a7&s=videogames&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1) 
 * [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
 * [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
-* [LEGO The Legend of Zelda set revealed!](https://brickset.com/article/110379/lego-the-legend-of-zelda-set-revealed) 
-* [Door Shelf Bin](https://www.repairclinic.com/PartDetail/Door-Shelf-Bin/WR71X29264/4590509) 
-* [The Pocket](https://bulletjournal.com/products/pocket) 
