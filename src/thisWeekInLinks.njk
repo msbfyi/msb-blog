@@ -1,0 +1,18 @@
+---
+layout: page
+title: "The Week in Links"
+permalink: /this-week-in-links/index.html
+eleventyNavigation:
+    key: Links
+    order: 3
+pagination:
+  data: collections.links
+  size: 100
+  alias: articles
+---
+
+<h1>{{ title }}</h1>
+{% include "./_includes/components/categoryNav.njk" %}
+<p>This view contains a list of all my weekly link posts sorted from newest to oldest.</p>
+
+{% include "./_includes/components/articleList.njk" %}

@@ -1,0 +1,10 @@
+{% set thisWeekInLinks = collections.links | first %}
+
+<ul class="article__list">
+  <li class="article__item">
+    <a href="{{ thisWeekInLinks.url | url }}">{{ thisWeekInLinks.data.publishedDate }}</a>
+  </li>
+  <li class="article__item">
+    <a class="category" href="/this-week-in-links">See past week's links...</a>
+  </li>
+</ul>
