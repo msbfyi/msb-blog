@@ -15,7 +15,7 @@ import { DateTime } from 'luxon'
 dotenv.config();
 
 import imageRenderer from "./_configs/markdownlibrary.renderer.image.js";
-
+import cssminification from './_configs/cssminification.shortcode.js';
 import notice from './_configs/notice.shortcode.js';
 import button from './_configs/button.shortcode.js';
 import figure from './_configs/figure.shortcode.js';
@@ -72,6 +72,16 @@ export default function(eleventyConfig) {
   markdownLibrary.renderer.rules.image = (tokens, idx, options, env, slf) => imageRenderer(tokens, idx, options, env, slf, markdownLibrary);
 
 
+  // // filter to convert content to Markdown.
+  // // Useful for allowing `code` in the h1
+  // eleventyConfig.addFilter("markdown", (content) => {
+  //   return markdownLibrary.renderInline(content);
+  // });
+
+  // Paired shortcode that takes a JSON array of CSS file paths
+  // It then combines them, which includes reconciles overriden values!
+  // And returns the output.
+  eleventyConfig.addPairedShortcode("cssminification", cssminification);
   eleventyConfig.setLibrary("md", markdownLibrary);
   // Re-enable the indented code block feature
   eleventyConfig.amendLibrary("md", mdLib => mdLib.enable("code"))
@@ -136,7 +146,7 @@ export default function(eleventyConfig) {
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('blog', (collectionApi) => {
     console.log(process.env.ELEVENTY_RUN_MODE)
-    return collectionApi.getFilteredByGlob('./blog/*/*.md')
+    return collectionApi.getFilteredByGlob('./src/blog/*/*.md')
       .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
   })
   eleventyConfig.addCollection('categoryList', getCategoryList)
