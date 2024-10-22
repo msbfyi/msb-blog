@@ -37,6 +37,7 @@
     "sass": "^1.70.0",
     "svg-icon-sprite": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "clean-css": "^5.3.3",
     "simpledotcss": "2.1.1",
     "simplelightbox": "^2.14.3"
   },
