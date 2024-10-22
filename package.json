@@ -27,6 +27,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/is-land": "^4.0.0",
     "@zachleat/snow-fall": "^1.0.2",
+    "markdown-it-anchor": "^9.0.1",
     "date-fns": "^3.3.1",
     "dotenv": "^16.4.4",
     "eleventy-plugin-mastoarchive": "^0.2.0",
@@ -34,7 +35,10 @@
     "npm-run-all": "^4.1.5",
     "rss-parser": "^3.13.0",
     "sass": "^1.70.0",
-    "svg-icon-sprite": "^1.1.1"
+    "svg-icon-sprite": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "simpledotcss": "2.1.1",
+    "simplelightbox": "^2.14.3"
   },
   "devDependencies": {
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.7"

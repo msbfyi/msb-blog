@@ -24,5 +24,7 @@
       {{ content | safe }}
     </main>
     {% include "../components/footer.njk" %}
+    {# Detects if images are in the content, it will add the simplelightbox JS/CSS if needed.  #}
+    {% addLightBoxRefIfNecessary %}
   </body>
 </html>

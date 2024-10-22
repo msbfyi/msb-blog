@@ -13,8 +13,9 @@
 }
 .main__title{
     .logo{
-        display: inline-block;
+        display: block;
     }
+    text-align: center;
 }
 .main__title h1 {
     display: inline-block;
@@ -24,7 +25,7 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     font-family: "National Forest", Calibri, Tahoma, sans-serif;
     position: relative;
-    margin-top: 25px;
+    margin-top: 0;
 }
 h1{
     font-family: "National Forest Print", Calibri, Tahoma, sans-serif;
@@ -71,10 +72,11 @@ footer{
 }
 
 .vibing{
-    display: inline;
+    visibility: hidden;
+    display: none;
     margin-left: 100px;
     img{
-        /* width: 100px; */
+        width: 100px;
         height: 125px;
     }
 }
