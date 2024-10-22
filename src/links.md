@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Links
-eleventyNavigation:
-  key: links
-  order: 4
 
 ---
 
@@ -23,4 +20,8 @@ eleventyNavigation:
 
 - [⚡ Alby](https://getalby.com/p/msb)
 
-Last Updated: October 4, 2023
+## This Week In Links
+
+{% include "./_includes/components/thisWeekInLinks.njk" %}
+
+Last Updated: October 21, 2024

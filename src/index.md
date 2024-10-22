@@ -23,5 +23,9 @@ and [Github](https://github.com/michaelseanbecker).
 
 **Warning** This site is a constant work in progress and many things will break as I experiment. Built on 11ty.
 
-{% include "./_includes/components/articleList.njk" %}
+## This Week In Links
+{% include "./_includes/components/thisWeekInLinks.njk" %}
 
+## Latest Posts
+
+{% include "./_includes/components/articleList.njk" %}

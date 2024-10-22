@@ -145,10 +145,16 @@ export default function(eleventyConfig) {
   
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('blog', (collectionApi) => {
-    console.log(process.env.ELEVENTY_RUN_MODE)
-    return collectionApi.getFilteredByGlob('./src/blog/*/*.md')
+    return collectionApi.getFilteredByGlob('./src/blog/posts/*.md')
       .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
   })
+
+  /* Creating a collection of blogposts by filtering based on folder and filetype */
+  eleventyConfig.addCollection('links', (collectionApi) => {
+    return collectionApi.getFilteredByGlob('./src/blog/links/*.md')
+      .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
+  })
+
   eleventyConfig.addCollection('categoryList', getCategoryList)
   eleventyConfig.addCollection('categories', createCategories)
 
