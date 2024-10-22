@@ -15,9 +15,7 @@ The Florida Panthers are the 2023 Stanley Cup Champions!!!
 ![](/assets/images/panthers-2024/D4F26878-10E8-4D39-A326-54CC07B3B9AD.jpeg)
 
 
-
 I have followed the Florida Panthers since their 1996 Stanley Cup run, and watching this year made me think, "This could really happen."
-
 
 
 ![](/assets/images/panthers-2024/9CD47546-1804-41F1-B190-B0E7923A2CC1_1_105_c.jpeg)

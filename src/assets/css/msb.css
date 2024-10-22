@@ -1,3 +1,5 @@
+@import url('~simpledotcss/simple.min.css');
+
 @font-face {
     font-family: "National Forest";
     src: url('../fonts/NationalForest/NationalForest.otf') format('opentype');
@@ -49,11 +51,11 @@ nav ul
         text-transform: capitalize;
         display: inline-block;
         margin-right: 20px;
-        &:not(:last-child):after{
+        /* &:not(:last-child):after{
             content: "|";
             margin-left: 20px;
             color: #fff;
-        }
+        } */
     }
 }
 .link-post ul{
