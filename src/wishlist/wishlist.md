@@ -1,5 +1,5 @@
 ---
-date: 2024-10-20T01:34:49Z
+date: 2024-10-27T01:27:33Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [TIE Fighter Hip Sling Bag](https://heroesvillains.com/collections/accessories-bags/products/star-wars-tie-fighter-hip-sling-bag) 
+* [Star Trek Strange New Worlds Captain Pike Gold Uniforms Startfleet Blu – Cosermart](https://cosermart.com/collections/star-trek-1/products/star-trek-strange-new-worlds-captain-pike-gold-uniforms-startfleet-blue-red-yellow-top-shirts?variant=41844341342369) Red Size TBD
+* [Star Trek Strange New Worlds Captain Pike Gold Uniforms Startfleet Blue Red Yellow Top Shirts](https://cosermart.com/collections/star-trek-1/products/star-trek-strange-new-worlds-captain-pike-gold-uniforms-startfleet-blue-red-yellow-top-shirts) 
 * [AirCard™ - Card-sized wallet tracker](https://rollingsquare.com/products/aircard) 
 * [Three Leaf Brooch](https://knightweave.com/products/three-leaf-brooch?pr_prod_strat=jac&pr_rec_id=3b649b396&pr_rec_pid=9563155661110&pr_ref_pid=9100503384374&pr_seq=uniform) 
 * [Mastering Bitcoin: Programming the Open Blockchain|eBook](https://www.barnesandnoble.com/w/mastering-bitcoin-andreas-m-antonopoulos/1126323222?ean=9781098150051) 
@@ -29,6 +32,3 @@ eleventyNavigation:
 * [Geeksoutfit Tatooine Scavenger Union Pins for Sale online](https://www.geeksoutfit.com/products/tatooine-scavenger-union-pins) 
 * [Geeksoutfit Define Normal Pins for Sale online](https://www.geeksoutfit.com/products/define-normal-pins) 
 * [Geeksoutfit Doctor Who Pins for Sale online](https://www.geeksoutfit.com/products/doctor-who-pins) 
-* [: LTGEM EVA case for 8Bitdo Ultimate Bluetooth Controller with Charging Dock (White) - Travel : Electronics](https://www.amazon.com/dp/B0BMPN63JC/ref=sspa_dk_detail_2?pd_rd_i=B0BMPN63JC&pd_rd_w=emy8k&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=V4AGX72ZNAABH9DTT43C&pd_rd_wg=xV7Z3&pd_rd_r=fb5764c8-c4b4-4e15-9d02-4398ab4b69a7&s=videogames&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1) 
-* [Amazon.com: 8Bitdo Classic Controller Travel Case Ultimate Controller with Charging Dock : Video Games](https://www.amazon.com/dp/B0CSDJF38Y) 
-* [8Bitdo Ultimate Bluetooth Controller with Charging Dock, Wireless Pro Controller with Hall Effect Sensing Joystick, Compatible with Switch, Windows and Steam Deck (Black) : Video Games](https://www.amazon.com/dp/B0B9BGJVLL?th=1) 
