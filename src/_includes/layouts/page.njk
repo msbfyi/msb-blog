@@ -11,6 +11,7 @@
     {% include "../components/metadata.njk" %}
     <script type="module" src="/assets/svg-icon-sprite.js"></script>
     <script type="module" src="/assets/snow-fall.js"></script>
+    <script type="module" src="/assets/mastodon-post.js"></script>
     {% include "../styles.njk" %}
     {%- if env.ELEVENTY_RUN_MODE !== "serve" -%}
       <script defer src="https://cloud.umami.is/script.js" data-website-id="26e14fcd-d07c-4b15-b95c-ab93675e5ca8"></script>
@@ -20,6 +21,11 @@
   <body>
     {# <snow-fall mode="page"></snow-fall> #}
     {% include "../components/header.njk" %}
+    <mastodon-post>
+  <a href="https://103.social/@msb/113349775298958002">
+    Discuss on Mastodon
+  </a>
+</mastodon-post>
     <main role="main">
       {{ content | safe }}
     </main>
