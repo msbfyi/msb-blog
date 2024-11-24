@@ -1,5 +1,5 @@
 ---
-date: 2024-11-17T01:39:00Z
+date: 2024-11-24T01:37:46Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,7 +7,7 @@ eleventyNavigation:
 
 ---
 
-* [TIE Fighter Hip Sling Bag](https://heroesvillains.com/collections/accessories-bags/products/star-wars-tie-fighter-hip-sling-bag) 
+* [Imperial Star Destroyer Sling](https://heroesvillains.com/collections/crossbody-bags-and-slings/products/star-wars-imperial-star-destroyer-sling) 
 * [Star Trek Strange New Worlds Captain Pike Gold Uniforms Startfleet Blu – Cosermart](https://cosermart.com/collections/star-trek-1/products/star-trek-strange-new-worlds-captain-pike-gold-uniforms-startfleet-blue-red-yellow-top-shirts?variant=41844341342369) Red Size TBD
 * [Star Trek Strange New Worlds Captain Pike Gold Uniforms Startfleet Blue Red Yellow Top Shirts](https://cosermart.com/collections/star-trek-1/products/star-trek-strange-new-worlds-captain-pike-gold-uniforms-startfleet-blue-red-yellow-top-shirts) 
 * [AirCard™ - Card-sized wallet tracker](https://rollingsquare.com/products/aircard) 
