@@ -32,6 +32,7 @@ eleventyNavigation:
 ### What I'm learning 🎓
 
 - 🕸️ [Web Components Demystified](https://scottjehl.com/learn/webcomponentsdemystified/)
+- 🖌️ [Complete CSS](https://piccalil.li/complete-css)
 
 ### What I’m making 🛠️
 
