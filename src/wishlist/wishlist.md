@@ -1,5 +1,5 @@
 ---
-date: 2024-11-25T02:13:41Z
+date: 2024-11-29T03:52:26Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [Obsidian Sticker by Obsidian](https://cottonbureau.com/p/EFCB69/sticker/obsidian-sticker#/18668366/purple-vinyl-2in) 
+* [Obsidian Pin Pack by Obsidian](https://cottonbureau.com/p/5XVC7Z/pin/obsidian-pin-pack#/18498167/enamel-enamel-0.75%22) 
 * [Imperial Star Destroyer Sling](https://heroesvillains.com/collections/crossbody-bags-and-slings/products/star-wars-imperial-star-destroyer-sling) 
 * [ZIKE Smart Tracking Card for iPhone/iPad/Mac | ZikeTech](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
 * [Florida Panthers 2024 Stanley Cup Champions Beer Can Glass](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-beer-can-glass/) 
