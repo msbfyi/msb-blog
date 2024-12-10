@@ -80,3 +80,10 @@ footer{
         height: 125px;
     }
 }
+
+.wishlist li {
+    margin-bottom: 20px;
+    a{
+    display: block;
+    }
+}
