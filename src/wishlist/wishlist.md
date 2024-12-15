@@ -1,5 +1,5 @@
 ---
-date: 2024-12-10T18:55:12Z
+date: 2024-12-15T01:42:26Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
