@@ -26,7 +26,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/is-land": "^4.0.0",
-    "@zachleat/snow-fall": "^1.0.2",
+    "@zachleat/snow-fall": "^1.0.3",
     "markdown-it-anchor": "^9.0.1",
     "date-fns": "^3.3.1",
     "dotenv": "^16.4.4",
