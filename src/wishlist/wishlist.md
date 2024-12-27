@@ -1,5 +1,5 @@
 ---
-date: 2024-12-22T01:28:19Z
+date: 2024-12-27T02:22:19Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,10 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [Writing for Developers](https://www.manning.com/books/writing-for-developers?utm_source=stimac&utm_medium=affiliate&utm_campaign=book_dunlop_writing_5_16_24&a_aid=stimac&a_bid=33a8dae6) 
 * [Imperial Star Destroyer Sling](https://heroesvillains.com/collections/crossbody-bags-and-slings/products/star-wars-imperial-star-destroyer-sling) 
-* [Travel Cubes](https://www.amazon.com/EPICKA-Ultra-Lightweight-Compression-Packing-Cubes/dp/B0DFPRT8JS/ref=sxin_25_sbv_search_btf?content-id=amzn1.sym.7032aefd-3c59-4a1e-aaf4-8d3a944207a4%3Aamzn1.sym.7032aefd-3c59-4a1e-aaf4-8d3a944207a4&crid=2JE87JVFBQOLV&cv_ct_cx=travel%2Bcube%2Bcompression&keywords=travel%2Bcube%2Bcompression&pd_rd_i=B0DFPRT8JS&pd_rd_r=3a100f4e-1354-4113-b3bd-9934790154cd&pd_rd_w=B1Dbq&pd_rd_wg=LY430&pf_rd_p=7032aefd-3c59-4a1e-aaf4-8d3a944207a4&pf_rd_r=158BJX8V6Z8MT450YEPK&qid=1733815343&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=travel%2Bcube%2Bcompression%2Caps%2C192&sr=1-1-5190daf0-67e3-427c-bea6-c72c1df98776&th=1) 
 * [Florida Panthers 2024 Stanley Cup Champions Beer Can Glass](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-beer-can-glass/) 
-* [Bike and Car Tire Electric Air Pump](https://www.amazon.com/ZGZUXO-Inflator-Portable-Compressor-Cordless/dp/B0CF9WQSXP/ref=sr_1_3?crid=3D857LZUATJR6&dib=eyJ2IjoiMSJ9.tHULeCD-dsCL9PoJjiMlnpkKU4T6XUzehLEC55Zk5RYtk2VHILjy15esSTSbF34VZRSQo7g6yduqN9hICo-oF-Dr-k2ylsWVmZur1FwZNdCfYYe0p6crJodiu0dJeu1-XIkCmTRepOiJM0KAX-lgVrNtz_1NcjTIVhp0yo1LF5lqUoxwGH5Gi0U8pcAyDP8HSGXTLklUJPUT4iHwXLLlg9B69aOhBUNzfeU7J3lwdUs.hZw2ildhKx_DB7fBlG5zSRGA0rw-45s12f-Pd-QV-w0&dib_tag=se&keywords=bike+tire+pump+electric&qid=1733813833&sprefix=bike+tire+pump+%2Caps%2C212&sr=8-3) 
 * [Rack for folding bike basket](https://www.amazon.com/gp/product/B0858J7MPW/ref=ox_sc_saved_image_3?smid=A37STSWX3HMAIT&psc=1) 
 * [Folding Bike Basket](https://www.amazon.com/gp/product/B0033VNCTE/ref=ox_sc_saved_image_2?smid=ATVPDKIKX0DER&psc=1) 
 * [Randy Moller 94 Jersey](https://jerseyclub.shop/95-96-authentic-florida-panthers-custom-blue-line-red-00-jersey/) Moller | 16 | M
