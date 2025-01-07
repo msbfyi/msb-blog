@@ -149,6 +149,11 @@ export default function(eleventyConfig) {
       .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
   })
 
+  eleventyConfig.addCollection('now', (collectionApi) => {
+    return collectionApi.getFilteredByGlob('./src/pages/now/*.md')
+      .filter(process.env.ELEVENTY_RUN_MODE !== "serve" ? item => !item.data.draft : item => item.data).reverse()
+  })
+
   /* Creating a collection of blogposts by filtering based on folder and filetype */
   eleventyConfig.addCollection('links', (collectionApi) => {
     return collectionApi.getFilteredByGlob('./src/blog/links/*.md')

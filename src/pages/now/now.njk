@@ -1,0 +1,18 @@
+---
+layout: page
+title: Now
+permalink: "/now/"
+eleventyNavigation:
+  key: /now
+  order: 3
+---
+
+<h1>My /now page 📆</h1>
+
+(This is a <a href="https://nownownow.com/about" target="_blanl">now page</a>, and if you have your own site, <a href="https://nownownow.com/about" target="_blank">you should make one</a>, too.)
+
+{% set currentNow = collections.now | first %}
+
+{{ currentNow.templateContent | safe }}
+
+Last Updated: {{ currentNow.date | readableDate }}
