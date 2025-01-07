@@ -9,8 +9,8 @@
 
     <title>{{ title or metadata.title }}</title>
     {% include "../components/metadata.njk" %}
-    <script type="module" src="/assets/svg-icon-sprite.js"></script>
-    <script type="module" src="/assets/snow-fall.js"></script>
+    <script type="module" src="/assets/svg-icon-sprite.js?ver={% appVer %}"></script>
+    <script type="module" src="/assets/snow-fall.js?ver={% appVer %}"></script>
     {% include "../styles.njk" %}
     {%- if env.ELEVENTY_RUN_MODE !== "serve" -%}
       <script defer src="https://cloud.umami.is/script.js" data-website-id="26e14fcd-d07c-4b15-b95c-ab93675e5ca8"></script>
