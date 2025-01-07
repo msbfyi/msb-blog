@@ -16,3 +16,12 @@ eleventyNavigation:
 {{ currentNow.templateContent | safe }}
 
 Last Updated: {{ currentNow.date | readableDate }}
+
+<div class="then-archive-links">
+  <p>Previous Updates</p>
+{% for then in collections.now %}
+  <span class="then-link">
+    <a href="{{ then.url | url }}">{{ then.date | readableDate }}</a>
+  </span>
+{% endfor %}
+</div>

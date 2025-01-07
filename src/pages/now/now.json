@@ -1,0 +1,6 @@
+{
+    "layout": "article",
+    "hasCustomOGImage": true,
+    "type": "now",
+    "permalink": "/then/{{ date | urlDateFilter }}/index.html"
+}
