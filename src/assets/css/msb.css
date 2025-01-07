@@ -87,3 +87,12 @@ footer{
     display: block;
     }
 }
+
+.then-archive-links{
+    text-align: center;
+    font-size: small;
+    width: 90%;
+}
+.then-link:not(:last-of-type) > a::after {
+    content: ' | ';
+  }
