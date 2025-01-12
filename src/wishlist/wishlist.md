@@ -1,5 +1,5 @@
 ---
-date: 2025-01-05T01:28:08Z
+date: 2025-01-12T01:36:03Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [Sysadmin Tools – Michael W Lucas](https://mwl.io/nonfiction/tools#ryoms) 
+* [RPG Maps Forge](https://rpgmapsforge.com/?fbclid=PAZXh0bgNhZW0CMTEAAaYRUQDOYPBXHRz5H-xyamrlbxgsWMao0elsQ-r_NrhjdIXoHeBVD-cfqgk_aem_t_zd_jM48VA8lCuNcQv3ZQ&eab_tests=56d65_5576_0) 
+* [Dungeon Journal - Classic Edition](https://www.elderwoodacademy.com/product/dungeon-journal/) 
 * [Sport Medal Honeycomb Display Plaque Holder for 3 to 7 Medals 3D Print STL File Bundle - Etsy](https://www.etsy.com/listing/1183623449/sport-medal-honeycomb-display-plaque?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=3d+medal+holder&ref=sr_gallery-1-2&sts=1&dd=1&content_source=9de6a7f09180f03c823626708171b4a0c9593fd8%253A1183623449&organic_search_click=1) 
 * [10-Year Battery™ Case (Pre-Order)](https://www.elevationlab.com/products/timecapsule) 
 * [Blacktron Renegade 10355 | LEGO® Icons | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/blacktron-renegade-10355) 
