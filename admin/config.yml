@@ -1,0 +1,34 @@
+backend:
+  name: github
+  branch: main
+  repo: msbfyi/msb-blog
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+publish_mode: editorial_workflow
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "src/blog/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "tags", name: "tags", widget: "list", default: ["posts"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "now" # Used in routes, e.g., /admin/collections/blog
+    label: "Now" # Used in the UI
+    folder: "src/pages/now" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "now-YYMMDD" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "category", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}

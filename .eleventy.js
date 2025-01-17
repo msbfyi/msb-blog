@@ -46,6 +46,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('links', 'layouts/links')
 
   eleventyConfig.addPassthroughCopy('./src/assets')
+  eleventyConfig.addPassthroughCopy('./admin')
   eleventyConfig.addPassthroughCopy({ "node_modules/simplelightbox/dist/simple-lightbox.min.css": "simplelightbox/simple-lightbox.min.css" });
   eleventyConfig.addPassthroughCopy({ "node_modules/simplelightbox/dist/simple-lightbox.min.js": "simplelightbox/simple-lightbox.min.js" });
 
