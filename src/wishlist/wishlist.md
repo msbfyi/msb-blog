@@ -1,5 +1,5 @@
 ---
-date: 2025-01-12T01:36:03Z
+date: 2025-01-18T18:45:32Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,13 @@ eleventyNavigation:
 
 ---
 
+* [Expansion MOC for set 21338 A-Frame Cabin](https://rebrickable.com/mocs/MOC-149476/Daan2703/expansion-moc-for-set-21338-a-frame-cabin/#details) 
+* [Bear's Outhouse: An Expansion for Set A-Frame Cabin, 21338](https://rebrickable.com/mocs/MOC-171699/Valnadiel/bears-outhouse-an-expansion-for-set-a-frame-cabin-21338/#details) 
+* [Phoenix Squad Logo · Distressed | Lightweight Sweatshirt](https://www.redbubble.com/i/sweatshirt/Phoenix-Squad-Logo-Distressed-by-Logogami/32698784.2VJVH?utm_source=rb-native-app&utm_campaign=share-product&utm_medium=ios) 
+* [Star Trek: Lower Decks Property Of U.S.S Cerritos Ship Logo | Lightweight Sweatshirt](https://www.redbubble.com/i/sweatshirt/Star-Trek-Lower-Decks-Property-Of-U-S-S-Cerritos-Ship-Logo-by-FifthSun/145033342.2VJVH?utm_source=rb-native-app&utm_campaign=share-product&utm_medium=ios) 
+* [Audio-Technica AT-SB727 Sound Burger Portable Bluetooth Turntable, Black : Electronics](https://www.amazon.com/Audio-Technica-AT-SB727-Portable-Bluetooth-Turntable/dp/B0C6PTLDPP/ref=pd_rhf_se_s_bmx_gp_he8lvzbn_d_sccl_2_2/130-4930621-9657206?pd_rd_w=5wkdQ&content-id=amzn1.sym.1d5f2621-11c2-44bc-9556-25dda490ffd1&pf_rd_p=1d5f2621-11c2-44bc-9556-25dda490ffd1&pf_rd_r=3M2R4X2E9676D9AGYG9H&pd_rd_wg=CuiUk&pd_rd_r=007142b2-8cc2-48c9-a1e4-026df5c2a564&pd_rd_i=B0C6PTLDPP&th=1) 
+* [Pelta-Class Combat Frigate Midi-Scale](https://rebrickable.com/mocs/MOC-205175/CreationCaravan%20%28Brad%20Barber%29/pelta-class-combat-frigate-midi-scale/#details) 
+* [Mini Ideas Collection - Updated for 2024](https://rebrickable.com/mocs/MOC-206069/christromans/mini-ideas-collection-updated-for-2024/#details) 
 * [Sysadmin Tools – Michael W Lucas](https://mwl.io/nonfiction/tools#ryoms) 
 * [RPG Maps Forge](https://rpgmapsforge.com/?fbclid=PAZXh0bgNhZW0CMTEAAaYRUQDOYPBXHRz5H-xyamrlbxgsWMao0elsQ-r_NrhjdIXoHeBVD-cfqgk_aem_t_zd_jM48VA8lCuNcQv3ZQ&eab_tests=56d65_5576_0) 
 * [Dungeon Journal - Classic Edition](https://www.elderwoodacademy.com/product/dungeon-journal/) 
