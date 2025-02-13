@@ -2,6 +2,7 @@ backend:
   name: github
   branch: main
   repo: msbfyi/msb-blog
+  base_url: https://auth.ghent.dev/
 
 media_folder: "src/assets/images"
 public_folder: "/assets/images"
