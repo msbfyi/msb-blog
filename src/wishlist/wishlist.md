@@ -1,5 +1,5 @@
 ---
-date: 2025-03-02T01:35:26Z
+date: 2025-03-09T01:14:28Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [The Nikos Knife™](https://www.thenikosknife.com/products/the-nikos-knife) 
 * [Expansion MOC for set 21338 A-Frame Cabin](https://rebrickable.com/mocs/MOC-149476/Daan2703/expansion-moc-for-set-21338-a-frame-cabin/#details) 
 * [Bear's Outhouse: An Expansion for Set A-Frame Cabin, 21338](https://rebrickable.com/mocs/MOC-171699/Valnadiel/bears-outhouse-an-expansion-for-set-a-frame-cabin-21338/#details) 
 * [Phoenix Squad Logo · Distressed | Lightweight Sweatshirt](https://www.redbubble.com/i/sweatshirt/Phoenix-Squad-Logo-Distressed-by-Logogami/32698784.2VJVH?utm_source=rb-native-app&utm_campaign=share-product&utm_medium=ios) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Imperial Star Destroyer Sling](https://heroesvillains.com/collections/crossbody-bags-and-slings/products/star-wars-imperial-star-destroyer-sling) 
 * [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
 * [Florida Panthers 2024 Stanley Cup Champions Beer Can Glass](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-beer-can-glass/) 
-* [Wallet Tracking Card](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
