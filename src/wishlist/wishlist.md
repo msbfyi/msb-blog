@@ -1,5 +1,5 @@
 ---
-date: 2025-03-09T01:14:28Z
+date: 2025-03-16T01:38:54Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -29,6 +29,6 @@ eleventyNavigation:
 * [Folding Bike Basket](https://www.amazon.com/gp/product/B0033VNCTE/ref=ox_sc_saved_image_2?smid=ATVPDKIKX0DER&psc=1) 
 * [Gamepad Case](https://www.amazon.com/Anleo-Travel-8Bitdo-Bluetooth-Gamepad/dp/B0C857X7TD/ref=sr_1_2?crid=1WKBF1HEJK2UD&dib=eyJ2IjoiMSJ9.P8eFKA-my4GAEAGq-tnQKOiQq4gYW5irzfdk1JRnR3tDz2hD6s2wwTeC6NXdJAiD.ehqTwLjN6dysB_1LQqvQDEM_WKmEzBNrwgWZVmq_SR8&dib_tag=se&keywords=ibdo%2Bsn30%2Bcase&qid=1733812997&s=videogames&sprefix=ibdo%2Bsn30%2Bcase%2Cvideogames%2C177&sr=1-2&th=1) 
 * [Obsidian Pin Pack by Obsidian](https://cottonbureau.com/p/5XVC7Z/pin/obsidian-pin-pack#/18498167/enamel-enamel-0.75%22) 
-* [Imperial Star Destroyer Sling](https://heroesvillains.com/collections/crossbody-bags-and-slings/products/star-wars-imperial-star-destroyer-sling) 
 * [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
-* [Florida Panthers 2024 Stanley Cup Champions Beer Can Glass](https://flateamshop.com/florida-panthers-2024-stanley-cup-champions-beer-can-glass/) 
+* [Wallet Tracking Card](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
+* [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
