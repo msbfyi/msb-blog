@@ -1,5 +1,5 @@
 ---
-date: 2025-03-23T01:39:37Z
+date: 2025-03-30T01:41:43Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,8 @@ eleventyNavigation:
 
 ---
 
+* [Brambletrek - Tales in the Hundred Acre Woods](https://www.backerkit.com/c/projects/crossed-paths/brambletrek-tales-in-the-Hundred-Acre-Woods?ref=bk-ads-b-03&utm_medium=paid&utm_source=ig&utm_id=120218416000160505&utm_content=120218418696840505&utm_term=120218418664440505&utm_campaign=120218416000160505&fbclid=PAZXh0bgNhZW0BMABhZGlkAasaoH9pWmkBpsGq8SM9KqRDoMxXMpLIAg8nHGkLKWZBMc-fQt3_2MHYtWG-dy4Dph54Jw_aem_0t80Uauu-gFk8CrQmbWCjg) 
+* [Brambletrek is a gorgeous, thoughtful GM-less RPG about mousefolk on a reflective quest](https://www.dicebreaker.com/games/brambletrek/news/brambletrek-rpg-backerkit-throughtful-mousefolk-adventures) 
 * [The Nikos Knife™](https://www.thenikosknife.com/products/the-nikos-knife) 
 * [Expansion MOC for set 21338 A-Frame Cabin](https://rebrickable.com/mocs/MOC-149476/Daan2703/expansion-moc-for-set-21338-a-frame-cabin/#details) 
 * [Bear's Outhouse: An Expansion for Set A-Frame Cabin, 21338](https://rebrickable.com/mocs/MOC-171699/Valnadiel/bears-outhouse-an-expansion-for-set-a-frame-cabin-21338/#details) 
@@ -30,5 +32,3 @@ eleventyNavigation:
 * [Gamepad Case](https://www.amazon.com/Anleo-Travel-8Bitdo-Bluetooth-Gamepad/dp/B0C857X7TD/ref=sr_1_2?crid=1WKBF1HEJK2UD&dib=eyJ2IjoiMSJ9.P8eFKA-my4GAEAGq-tnQKOiQq4gYW5irzfdk1JRnR3tDz2hD6s2wwTeC6NXdJAiD.ehqTwLjN6dysB_1LQqvQDEM_WKmEzBNrwgWZVmq_SR8&dib_tag=se&keywords=ibdo%2Bsn30%2Bcase&qid=1733812997&s=videogames&sprefix=ibdo%2Bsn30%2Bcase%2Cvideogames%2C177&sr=1-2&th=1) 
 * [Obsidian Pin Pack by Obsidian](https://cottonbureau.com/p/5XVC7Z/pin/obsidian-pin-pack#/18498167/enamel-enamel-0.75%22) 
 * [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
-* [Wallet Tracking Card](https://ziketech.com/products/smart-tracking-card?variant=43692863258785) 
-* [Internet for the People](https://www.versobooks.com/products/2674-internet-for-the-people) On my must read list. 
