@@ -1,5 +1,5 @@
 ---
-date: 2025-05-18T01:47:55Z
+date: 2025-05-25T01:50:16Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Florida Panthers 2025 Stanley Cup Playoff Core Cap](https://flateamshop.com/florida-panthers-2025-stanley-cup-playoff-core-cap/) 
 * [Brambletrek - Tales in the Hundred Acre Woods](https://www.backerkit.com/c/projects/crossed-paths/brambletrek-tales-in-the-Hundred-Acre-Woods?ref=bk-ads-b-03&utm_medium=paid&utm_source=ig&utm_id=120218416000160505&utm_content=120218418696840505&utm_term=120218418664440505&utm_campaign=120218416000160505&fbclid=PAZXh0bgNhZW0BMABhZGlkAasaoH9pWmkBpsGq8SM9KqRDoMxXMpLIAg8nHGkLKWZBMc-fQt3_2MHYtWG-dy4Dph54Jw_aem_0t80Uauu-gFk8CrQmbWCjg) 
 * [Brambletrek is a gorgeous, thoughtful GM-less RPG about mousefolk on a reflective quest](https://www.dicebreaker.com/games/brambletrek/news/brambletrek-rpg-backerkit-throughtful-mousefolk-adventures) 
 * [The Nikos Knife™](https://www.thenikosknife.com/products/the-nikos-knife) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Folding Bike Basket](https://www.amazon.com/gp/product/B0033VNCTE/ref=ox_sc_saved_image_2?smid=ATVPDKIKX0DER&psc=1) 
 * [Gamepad Case](https://www.amazon.com/Anleo-Travel-8Bitdo-Bluetooth-Gamepad/dp/B0C857X7TD/ref=sr_1_2?crid=1WKBF1HEJK2UD&dib=eyJ2IjoiMSJ9.P8eFKA-my4GAEAGq-tnQKOiQq4gYW5irzfdk1JRnR3tDz2hD6s2wwTeC6NXdJAiD.ehqTwLjN6dysB_1LQqvQDEM_WKmEzBNrwgWZVmq_SR8&dib_tag=se&keywords=ibdo%2Bsn30%2Bcase&qid=1733812997&s=videogames&sprefix=ibdo%2Bsn30%2Bcase%2Cvideogames%2C177&sr=1-2&th=1) 
 * [Obsidian Pin Pack by Obsidian](https://cottonbureau.com/p/5XVC7Z/pin/obsidian-pin-pack#/18498167/enamel-enamel-0.75%22) 
-* [Magnetic Magic Ears](https://parkears.com/products/magnetic-mouse-ears) 
