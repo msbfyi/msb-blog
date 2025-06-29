@@ -1,5 +1,5 @@
 ---
-date: 2025-06-22T01:53:42Z
+date: 2025-06-29T01:55:54Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,9 @@ eleventyNavigation:
 
 ---
 
+* [WalkingPad Z1 Under Desk Treadmill Best Value and Hot Selling Choice](https://www.walkingpad.com/products/walkingpad-z1-under-desk-treadmill) 
+* [Venom 2 Back](https://hyperice.com/products/venom-2-back/?nbt=nb%3Aadwords%3Ag%3A15441499338%3A127298175581%3A568232520843&nb_adtype=&nb_kwd=hyperice%20venom%20back&nb_ti=kwd-423628737803&nb_mi=&nb_pc=&nb_pi=&nb_ppi=&nb_placement=&nb_li_ms=&nb_lp_ms=&nb_fii=&nb_ap=&nb_mt=b&gad_source=1&gad_campaignid=15441499338&gbraid=0AAAAADuMRhiRmVlQrLcoZ46LKn3Aev9Np&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJZG8NMpHN7-pqdmh2J4mvrfto-VTMojV8IVm9GWidG1F6wU1j5yL0BoCWdYQAvD_BwE) 
+* [2025 Florida Panthers NHL Stanley Cup Fan championship ring - MVP Ring](https://mvpring.com/product/2025-florida-panthers-nhl-stanley-cup-fan-championship-ring/) 
 * [LULULOOK Wallet Tracker Card, Ultra Slim Airtag Wallet Works with Apple Find My (iOS Only), Wireless Rechargeable GPS Smartcard Tracker for Luggage, Tags, Passport, Purse, IP68 Waterproof : Electronics](https://www.amazon.com/LULULOOK-iOS-Rechargeable-Smartcard-Waterproof/dp/B0DPFZ4MF7?tag=macrumors-20&geniuslink=true&th=1) 
 * [Amazon.com: Tetra Portable Coffee Drip, Stores Flat, Matte Finish, 1.5 Cups, by Munieq: Home & Kitchen](https://www.amazon.com/Portable-Coffee-Stores-Stainless-Munieq/dp/B01H7SWFRS) 
 * [Florida Panthers 2025 Premium Jersey - All Stitched - Marisgear](https://marisgear.com/products/dsdjey1as?fbclid=PAQ0xDSwKyeShleHRuA2FlbQEwAGFkaWQBqyAVbko4aQGnyisge_cL1gIFYDfNsm3xzoZQDJgggg_kPtCgyWlTHhg4CAIp1rqEazFvbmQ_aem_XFzT33bGfu3qOXTzULEAGA) 
@@ -29,6 +32,3 @@ eleventyNavigation:
 * [Dungeon Journal - Classic Edition](https://www.elderwoodacademy.com/product/dungeon-journal/) 
 * [Sport Medal Honeycomb Display Plaque Holder for 3 to 7 Medals 3D Print STL File Bundle - Etsy](https://www.etsy.com/listing/1183623449/sport-medal-honeycomb-display-plaque?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=3d+medal+holder&ref=sr_gallery-1-2&sts=1&dd=1&content_source=9de6a7f09180f03c823626708171b4a0c9593fd8%253A1183623449&organic_search_click=1) 
 * [10-Year Battery™ Case (Pre-Order)](https://www.elevationlab.com/products/timecapsule) 
-* [Blacktron Renegade 10355 | LEGO® Icons | Buy online at the Official LEGO® Shop US](https://www.lego.com/en-us/product/blacktron-renegade-10355) 
-* [Writing for Developers](https://www.manning.com/books/writing-for-developers?utm_source=stimac&utm_medium=affiliate&utm_campaign=book_dunlop_writing_5_16_24&a_aid=stimac&a_bid=33a8dae6) 
-* [Randy Moller 94 Jersey](https://jerseyclub.shop/95-96-authentic-florida-panthers-custom-blue-line-red-00-jersey/) Moller | 16 | M
