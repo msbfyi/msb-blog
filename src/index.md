@@ -13,7 +13,7 @@ pagination:
 # Hi there!
 
 I'm a dad of two, semi-regular [podcaster](https://okwhatwentwrong.com), home lab tinkerer, and 
-Director of Engineering at [Ritual](https://ritual.com) where I lead the Core Web Team.
+Director of Engineering.
 
 I believe in the open and independent web, and I've been working on this site for the last year
 to keep the [Indieweb](https://indieweb.org) spirit alive in me.
