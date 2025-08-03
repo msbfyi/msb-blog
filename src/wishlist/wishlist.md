@@ -1,5 +1,5 @@
 ---
-date: 2025-07-27T02:02:00Z
+date: 2025-08-03T02:03:37Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Portable Monitor 15.6inch 4K,3240 * 2160 Ultra-Slim Computer Gaming Monitor, 4K Monitor,500cd,100% sRGB w/45° Adjustable Stand,Standard HDMI USB-C Computer Display,for Laptop PC Phone Mac : Electronics](https://www.amazon.com/gp/product/B0DPX36PDM/ref=ewc_pr_img_1?smid=A2Y2L98ZW9JRJB&th=1) 
 * [Neatnik LLC](https://buy.stripe.com/bJe8wP6PydXg3LLgzb3AY0c) 
 * [Triple Aero 15.6" Pro Max](https://vkcn28-hp.myshopify.com/products/triple-aero-15-6-pro-max) 
 * [WalkingPad Z1 Under Desk Treadmill Best Value and Hot Selling Choice](https://www.walkingpad.com/products/walkingpad-z1-under-desk-treadmill) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Mini Ideas Collection - Updated for 2024](https://rebrickable.com/mocs/MOC-206069/christromans/mini-ideas-collection-updated-for-2024/#details) 
 * [Sysadmin Tools – Michael W Lucas](https://mwl.io/nonfiction/tools#ryoms) 
 * [RPG Maps Forge](https://rpgmapsforge.com/?fbclid=PAZXh0bgNhZW0CMTEAAaYRUQDOYPBXHRz5H-xyamrlbxgsWMao0elsQ-r_NrhjdIXoHeBVD-cfqgk_aem_t_zd_jM48VA8lCuNcQv3ZQ&eab_tests=56d65_5576_0) 
-* [Dungeon Journal - Classic Edition](https://www.elderwoodacademy.com/product/dungeon-journal/) 
