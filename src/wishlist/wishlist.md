@@ -1,5 +1,5 @@
 ---
-date: 2025-08-03T02:03:37Z
+date: 2025-08-10T01:59:57Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Anker 737 Power Bank (PowerCore 24K)](https://www.anker.com/products/a1289?cov=c&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYC4HmgDcf_4tEZ-6uXORwXY5T2EO8c_S_OH_ee-q7t_n6vsxZWldgaAqpUEALw_wcB&gbraid=0AAAAADbnO27NaDg3rijLtjFK8gvQAolM2&gad_campaignid=20284126303&gad_source=1&utm_term=%7B20274825774%7D_%7B%7D_%7B%7D&utm_content=seasonal&utm_campaign=us_anker_charger_conversion_pmax_seasonal_purchase_ost&utm_medium=pmax&utm_source=google&variant=41974285041814) 
 * [Portable Monitor 15.6inch 4K,3240 * 2160 Ultra-Slim Computer Gaming Monitor, 4K Monitor,500cd,100% sRGB w/45° Adjustable Stand,Standard HDMI USB-C Computer Display,for Laptop PC Phone Mac : Electronics](https://www.amazon.com/gp/product/B0DPX36PDM/ref=ewc_pr_img_1?smid=A2Y2L98ZW9JRJB&th=1) 
 * [Neatnik LLC](https://buy.stripe.com/bJe8wP6PydXg3LLgzb3AY0c) 
 * [Triple Aero 15.6" Pro Max](https://vkcn28-hp.myshopify.com/products/triple-aero-15-6-pro-max) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Pelta-Class Combat Frigate Midi-Scale](https://rebrickable.com/mocs/MOC-205175/CreationCaravan%20%28Brad%20Barber%29/pelta-class-combat-frigate-midi-scale/#details) 
 * [Mini Ideas Collection - Updated for 2024](https://rebrickable.com/mocs/MOC-206069/christromans/mini-ideas-collection-updated-for-2024/#details) 
 * [Sysadmin Tools – Michael W Lucas](https://mwl.io/nonfiction/tools#ryoms) 
-* [RPG Maps Forge](https://rpgmapsforge.com/?fbclid=PAZXh0bgNhZW0CMTEAAaYRUQDOYPBXHRz5H-xyamrlbxgsWMao0elsQ-r_NrhjdIXoHeBVD-cfqgk_aem_t_zd_jM48VA8lCuNcQv3ZQ&eab_tests=56d65_5576_0) 
