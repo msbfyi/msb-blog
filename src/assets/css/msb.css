@@ -96,3 +96,9 @@ footer{
 .then-link:not(:last-of-type) > a::after {
     content: ' | ';
   }
+
+pre > code {
+    text-wrap: balance;
+    line-height: 1.5em;
+    padding: 10px;
+}

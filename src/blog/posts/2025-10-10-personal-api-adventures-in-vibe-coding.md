@@ -32,6 +32,7 @@ I decided to start the project using Trak.tv as the datasource I would ingest to
 In Claude desktop I started the chat session to develop the plan. I could very well have done this in planning mode inside Claude Code, but I made the conscious decision to use Claude Desktop to be a product partner in coming up with the project requirements and then bring that into Claude Code. This helped with a few things. Claude Desktop didn't have access to the repository so for this initial setup it was using more general principals. It also couldn't just jump into coding. If you look at a IRL team process having engineers jump straight to code can lead the project in the wrong direction, especially in the first phases of setup. I really wanted this to act as a separation of concerns in the initial setup. Going forward, I will be doing more of the planning phase directly inside Claude Code so that the plan can benefit from the context of the code base it self.
 
 My initial prompt
+
 ```
 Ok I've decided to use Supabase. I am looking to setup my personal API project. The initial idea is to have an API that I can use to build my personal website off of data that I collect from across the internet. I would store and update Webfinger information, my profile link page, and other personal meta data that I can use to build out social pages. Also I want to pull in media consumption from Trak.tv for movies and TV and then be able to update posters from [https://theposterdb.com](https://theposterdb.com/) via the supabase interface. I will eventually want to pull in Steam games, books, music, etc. I want to start with the trak.tv integration. In my mind I see myself adding a view to trak.tv and then using the webhooks from trak.tv or echofeed make a call to my API to add the moive or tv show. Also if I have watched it before, add to the views instead of creating a whole new movie/tv entry
 ```
@@ -46,7 +47,7 @@ This got me to my initial state where I'd log a movie in Trakt's app, EchoFeed w
 
 This capture process has now worked for about 20 days for movies, data about when it was watched, and fetching enhanced data that I can add too. Since I have all of the ids for theMovieDB and Trakt I can always fetch additional metadata at a later point.
 
-![](/src/assets/images/movie-table1.jpeg)
+![](/assets/images/movie-table1.jpeg)
 
 That closes out the first part of this project. I wanted to get that initial setup and Supabase stood up so that I could build on top of it. The next phase is going to be creating the admin interface to update and add data outside of the tracking apps I have.
 
