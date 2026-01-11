@@ -1,5 +1,5 @@
 ---
-date: 2026-01-04T02:01:23Z
+date: 2026-01-11T02:01:18Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [Dynamic Folio](https://www.moft.us/products/dynamic-folio?variant=42204891938903) 
 * [Florida Panthers NHL 2026 Winter Classic Red Lebowski Button Down Shirt](https://flateamshop.com/florida-panthers-nhl-2026-winter-classic-red-lebowski-button-down-shirt/) 
 * [Florida Panthers 2026 NHL Winter Classic Skate Lace Hooded Pullover](https://flateamshop.com/florida-panthers-2026-nhl-winter-classic-skate-lace-hooded-pullover/) 
 * [MOD Snap-On Rear Basket](https://mod-bikes.com/products/mod-snap-on-rear-basket) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [Brambletrek is a gorgeous, thoughtful GM-less RPG about mousefolk on a reflective quest](https://www.dicebreaker.com/games/brambletrek/news/brambletrek-rpg-backerkit-throughtful-mousefolk-adventures) 
 * [The Nikos Knife™](https://www.thenikosknife.com/products/the-nikos-knife) 
 * [Expansion MOC for set 21338 A-Frame Cabin](https://rebrickable.com/mocs/MOC-149476/Daan2703/expansion-moc-for-set-21338-a-frame-cabin/#details) 
-* [Bear's Outhouse: An Expansion for Set A-Frame Cabin, 21338](https://rebrickable.com/mocs/MOC-171699/Valnadiel/bears-outhouse-an-expansion-for-set-a-frame-cabin-21338/#details) 
