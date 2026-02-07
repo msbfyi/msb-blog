@@ -7,7 +7,7 @@ import pluginRss from '@11ty/eleventy-plugin-rss'
 
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
 import postGraph from '@rknightuk/eleventy-plugin-post-graph'
-import mastoArchive from 'eleventy-plugin-mastoarchive'
+import mastoArchive from './_configs/mastoarchive.plugin.js'
 import getCategoryList from  './src/_11ty/getCategoryList.js'
 import createCategories from  './src/_11ty/createCategories.js'
 import { DateTime } from 'luxon'
