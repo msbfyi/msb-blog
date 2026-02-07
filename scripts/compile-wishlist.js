@@ -11,6 +11,9 @@ const formattedToday = format(today, "yyyy-MM-dd");
 const formattedPostDate = formatISO(today);
 
 async function fetchWishlist() {
+  if (!token) {
+    throw new Error("RAINDROP_TOKEN environment variable is not set");
+  }
   // Get content bookmarked between last Sunday and this Saturday inclusive
   const url = new URL(`https://api.raindrop.io/rest/v1/raindrops/${collectionId}`);
   const rsp = await fetch(url, {
@@ -18,6 +21,9 @@ async function fetchWishlist() {
       Authorization: `Bearer ${token}`,
     },
   });
+  if (!rsp.ok) {
+    throw new Error(`Failed to fetch wishlist: ${rsp.status} ${rsp.statusText}`);
+  }
   return await rsp.json();
 }
 function writeWishlist(raindrops) {
@@ -37,14 +43,17 @@ function writeWishlist(raindrops) {
 }
 
 async function main() {
-  fetchWishlist().then((res) => {
-    console.log(res)
-    if (res.items.length === 0) {
+  try {
+    const res = await fetchWishlist();
+    if (!res.items || res.items.length === 0) {
       console.log("No links found, exiting");
       return;
     }
     writeWishlist(res.items);
-  });
+  } catch (err) {
+    console.error("Error compiling wishlist:", err.message);
+    process.exit(1);
+  }
 }
 
 main();

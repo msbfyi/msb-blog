@@ -7,6 +7,9 @@ const formattedToday = format(today, "yyyy-MM-dd");
 const formattedPostDate = formatISO(today);
 
 async function fetchLinks() {
+  if (!token) {
+    throw new Error("RAINDROP_TOKEN environment variable is not set");
+  }
   // Get content bookmarked between last Sunday and this Saturday inclusive
   const url = new URL("https://api.raindrop.io/rest/v1/raindrops/0?search=%23weekly");
   const rsp = await fetch(url, {
@@ -14,7 +17,9 @@ async function fetchLinks() {
       Authorization: `Bearer ${token}`,
     },
   });
-  console.log(rsp);
+  if (!rsp.ok) {
+    throw new Error(`Failed to fetch links: ${rsp.status} ${rsp.statusText}`);
+  }
   return await rsp.json();
 }
 async function archiveLinks() {
@@ -31,6 +36,9 @@ async function archiveLinks() {
       "tags": ["weekly"]
   }),
   });
+  if (!rsp.ok) {
+    throw new Error(`Failed to archive links: ${rsp.status} ${rsp.statusText}`);
+  }
   return await rsp.json();
 }
 function writePost(raindrops) {
@@ -50,16 +58,19 @@ function writePost(raindrops) {
 }
 
 async function main() {
-  fetchLinks().then((res) => {
-    if (res.items.length === 0) {
+  try {
+    const res = await fetchLinks();
+    if (!res.items || res.items.length === 0) {
       console.log("No links found, exiting");
       return;
     }
     writePost(res.items);
-    archiveLinks().then((res) => {
-      console.log("Links archived");
-    });
-  });
+    await archiveLinks();
+    console.log("Links archived");
+  } catch (err) {
+    console.error("Error compiling links:", err.message);
+    process.exit(1);
+  }
 }
 
 main();
