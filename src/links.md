@@ -7,7 +7,7 @@ title: Links
 ## My /links page
 
 - [🟡 Ritual](https://ritual.com/)
-- [🐘 Mastodon: 103.social](https://103.social/@msb)
+- [🐘 Mastodon: social.lol](https://social.lol/@msb)
 - [📸 Pixelfed: pixelfed.social](https://pixelfed.social/@msb)
 - [♥️ omg.lol](https://msb.omg.lol/)
 - [👨🏻‍💻 Github](https://github.com/michaelseanbecker)
