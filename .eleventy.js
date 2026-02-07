@@ -37,8 +37,8 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(postGraph)
 
   eleventyConfig.addPlugin(mastoArchive, {
-    host: 'https://103.social',
-    userId: '110642609115838278',
+    host: 'https://social.lol',
+    userId: '114631853624870268',
   });
 
   eleventyConfig.addLayoutAlias('page', 'layouts/page')
@@ -164,7 +164,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addCollection('categoryList', getCategoryList)
   eleventyConfig.addCollection('categories', createCategories)
 
-  // TODO Add 103.social archive
+  // TODO Add social.lol archive
   
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
