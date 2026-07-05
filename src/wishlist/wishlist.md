@@ -1,5 +1,5 @@
 ---
-date: 2026-06-28T03:58:37Z
+date: 2026-07-05T03:33:28Z
 category: "Wishlist"
 eleventyNavigation:
     key: wishlist
@@ -7,6 +7,7 @@ eleventyNavigation:
 
 ---
 
+* [American Outlaws USMNT 26/27 Home Jersey by Nike | World Soccer Shop](https://www.worldsoccershop.com/shop/details/american-outlaws-usmnt-26-27-home-jersey-by-nike_RV7028431) 
 * [Operations (Jasper/Silver)](https://www.world.holzkern.com/en_world/operations-jasper-silver.html) 
 * [The Writing Box](https://www.galenleather.com/products/the-writing-box?%3Futm_source=ig&utm_medium=Others&utm_campaign=1+-+16%2F1%2F25_TOFU_Conversions_Writing-Box_ASC%2B_ROAS-Goal+Campaign&utm_content=005+%E2%80%93+Copy+2+%28fixed+error%29&utm_term=12%2F4%2F23_ASC%2B_Writing-Box-Conversions_Broad__7dc%2B1dv_120243706923030659&utm_id=120216973543260659&fbclid=PAaWdyZASDNNBleHRuA2FlbQEwAGFkaWQBqzEDrrbU43NydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABpw9qjCsxUKYMVtURMxDfpnZ0pcOQXVTDAIWsG_oLxo-HhxoqDLgelaXdWatN_aem_5o4uLu_ncUwn5aWsMO0gxw&utm_source=facebook&campaign_id=120216973543260659&ad_id=120243706923030659) 
 * [Carry-On: All-in-One](https://nobltravel.com/products/carry-on-all-in-one-nobl?variant=50670056276268&utm_source=bing&utm_medium=organic&utm_campaign=United+States+%28Brand%29&utm_content=Carry-On%3A+All-in-One&currency=USD&tw_source=bing&tw_campaign=486926880&utm_term=1224857171451088&tw_adid=76553714032683&msclkid=2c53cb9aa2201bbe82ada272f9c7c229) 
@@ -31,4 +32,3 @@ eleventyNavigation:
 * [The Nikos Knife™](https://www.thenikosknife.com/products/the-nikos-knife) 
 * [Expansion MOC for set 21338 A-Frame Cabin](https://rebrickable.com/mocs/MOC-149476/Daan2703/expansion-moc-for-set-21338-a-frame-cabin/#details) 
 * [Bear's Outhouse: An Expansion for Set A-Frame Cabin, 21338](https://rebrickable.com/mocs/MOC-171699/Valnadiel/bears-outhouse-an-expansion-for-set-a-frame-cabin-21338/#details) 
-* [Phoenix Squad Logo · Distressed | Lightweight Sweatshirt](https://www.redbubble.com/i/sweatshirt/Phoenix-Squad-Logo-Distressed-by-Logogami/32698784.2VJVH?utm_source=rb-native-app&utm_campaign=share-product&utm_medium=ios) 
