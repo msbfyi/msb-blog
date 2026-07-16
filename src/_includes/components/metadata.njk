@@ -1,4 +1,4 @@
-{% set socialImage = [metadata.url, metadata.image] | join %}
+{% set socialImage = [metadata.url, ogImage or metadata.image] | join %}
 {% set title = "msb.fyi" %}
   
 <meta name="description" content="{{ metadata.description }}">
@@ -14,6 +14,6 @@
 <meta name="twitter:site" content="@michaelsbecker">
 <meta name="twitter:title" content="{{ metadata.title }}">
 <meta name="twitter:description" content="{{ metadata.description }}">
-<meta name="twitter:image" content="socialImage">
+<meta name="twitter:image" content="{{ socialImage }}">
 
 <meta name="fediverse:creator" content="@msb@social.lol" />
