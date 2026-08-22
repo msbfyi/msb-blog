@@ -1,10 +1,11 @@
 {% set thisWeekInLinks = collections.links | first %}
 
-<ul class="article__list">
-  <li class="article__item">
-    <a href="{{ thisWeekInLinks.url | url }}">{{ thisWeekInLinks.data.publishedDate }}</a>
-  </li>
-  <li class="article__item">
-    <a class="category" href="/this-week-in-links">See past week's links...</a>
-  </li>
-</ul>
+<div class="dispatch">
+<span class="st" aria-hidden="true"><svg viewBox="-100 -100 200 200"><use href="#burst"></use></svg></span>
+<div class="left">
+<span class="k">Current issue</span>
+<a href="{{ thisWeekInLinks.url | url }}" class="issue">{{ thisWeekInLinks.data.date | dateFilter }}</a>
+<span class="sub">A week of things worth keeping, collected and sent out every Sunday.</span>
+</div>
+<a href="/this-week-in-links/" class="past btn onblue"><span class="d"></span>See past week's links…</a>
+</div>
