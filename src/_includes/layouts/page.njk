@@ -19,6 +19,24 @@
 
   <body>
     {# <snow-fall text="❄️" count="200"></snow-fall> #}
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <g id="burst" fill="currentColor">
+    <rect x="-2.5" y="-96" width="5" height="96"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(30)"></rect>
+    <rect x="-2.5" y="-96" width="5" height="96" transform="rotate(60)"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(90)"></rect>
+    <rect x="-2.5" y="-96" width="5" height="96" transform="rotate(120)"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(150)"></rect>
+    <rect x="-2.5" y="-96" width="5" height="96" transform="rotate(180)"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(210)"></rect>
+    <rect x="-2.5" y="-96" width="5" height="96" transform="rotate(240)"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(270)"></rect>
+    <rect x="-2.5" y="-96" width="5" height="96" transform="rotate(300)"></rect>
+    <rect x="-2" y="-64" width="4" height="64" transform="rotate(330)"></rect>
+    <circle cx="0" cy="0" r="15"></circle>
+    </g>
+    </defs></svg>
+
     {% include "../components/header.njk" %}
     <main role="main">
       {{ content | safe }}
@@ -26,5 +44,21 @@
     {% include "../components/footer.njk" %}
     {# Detects if images are in the content, it will add the simplelightbox JS/CSS if needed.  #}
     {% addLightBoxRefIfNecessary %}
+
+    <script>
+    (function(){
+      var KEY='msb-theme',root=document.documentElement,btns=document.querySelectorAll('.tog button');
+      function apply(m){
+        if(m==='auto'){root.removeAttribute('data-theme');}else{root.setAttribute('data-theme',m);}
+        btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.mode===m));});
+      }
+      var saved=null;try{saved=localStorage.getItem(KEY);}catch(e){}
+      apply(saved==='light'||saved==='dark'?saved:'auto');
+      btns.forEach(function(b){b.addEventListener('click',function(){
+        var m=b.dataset.mode;apply(m);
+        try{m==='auto'?localStorage.removeItem(KEY):localStorage.setItem(KEY,m);}catch(e){}
+      });});
+    })();
+    </script>
   </body>
 </html>

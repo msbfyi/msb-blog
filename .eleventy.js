@@ -119,6 +119,31 @@ export default function(eleventyConfig) {
     }).setLocale('en').toLocaleString(DateTime.DATE_FULL)
   })
 
+  // Buckets a collection into [{ year, items }, ...], most recent first,
+  // preserving each bucket's incoming order — used for the year-grouped
+  // post index on the homepage/blog/category pages.
+  eleventyConfig.addFilter('groupByYear', items => {
+    const groups = []
+    let currentYear = null
+    for (const item of items) {
+      const year = DateTime.fromJSDate(item.date, { zone: 'America/Los_Angeles' }).toFormat('yyyy')
+      if (year !== currentYear) {
+        currentYear = year
+        groups.push({ year, items: [] })
+      }
+      groups[groups.length - 1].items.push(item)
+    }
+    return groups
+  })
+
+  // "October 10" — used in the year-grouped post index, where the
+  // year is already shown as the group heading
+  eleventyConfig.addFilter('monthDayFilter', dateObj => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: 'America/Los_Angeles',
+    }).setLocale('en').toFormat('LLLL d')
+  })
+
   eleventyConfig.addFilter('dateFilter', dateObj => {
     const postJSDate = DateTime.fromJSDate(dateObj, {
       zone: 'America/Los_Angeles',

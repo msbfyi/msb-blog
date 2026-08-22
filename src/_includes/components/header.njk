@@ -1,13 +1,26 @@
 {% set navItems = collections.all | eleventyNavigation %}
-<header role="banner">
-  {% include "../components/banner.njk" %}
-  <nav role="navigation" aria-label="main navigation" >
-    <ul>
-      {%- for item in navItems %}
-        <li class="nav__item{{ ' active' if page.url === item.url }}">
-          <a href="{{ item.url }}">{{ item.key }}</a>
-        </li>
-      {%- endfor -%}
-    </ul>
-  </nav>
+<div class="wrap">
+<header class="ident" role="banner">
+<div class="lock">
+<div class="blocks">
+<span class="blk m">M</span><span class="blk s">S</span><span class="blk b">B</span>
+<span class="dom">.fyi</span>
+</div>
+<span class="name">Michael Sean Becker</span>
+</div>
+<span class="sp"></span>
+<div class="tog" role="group" aria-label="Colour mode">
+<button type="button" data-mode="light" aria-pressed="false">Light</button>
+<button type="button" data-mode="auto" aria-pressed="true">Auto</button>
+<button type="button" data-mode="dark" aria-pressed="false">Dark</button>
+</div>
 </header>
+</div>
+
+<nav class="rail" role="navigation" aria-label="main navigation">
+<div class="wrap"><div class="rail-in">
+{%- for item in navItems %}
+<a href="{{ item.url }}" class="{{ 'on' if page.url === item.url }}">{{ item.key }}</a>
+{%- endfor -%}
+</div></div>
+</nav>

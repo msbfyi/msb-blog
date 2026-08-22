@@ -2,52 +2,61 @@
     {
       "name": "Panther Pourri: A Florida Hockey Now Podcast",
       "url": "https://www.pantherpourri.com",
-      "feed": "https://feeds.transistor.fm/panther-pourri"
+      "feed": "https://feeds.transistor.fm/panther-pourri",
+      "description": "Florida Panthers talk from the Panther Pourri crew."
     },
     {
       "name": "The Panthers Podcast Network",
       "url": "https://panthers.nhl.com",
-      "feed": "https://feeds.simplecast.com/gevLqI5U"
+      "feed": "https://feeds.simplecast.com/gevLqI5U",
+      "description": "The NHL's official Florida Panthers podcast network."
     },
     {
       "name": "Hemispheric Views",
       "url": "https://hemisphericviews.com",
-      "feed": "https://listen.hemisphericviews.com/rss"
+      "feed": "https://listen.hemisphericviews.com/rss",
+      "description": "Three friends chatting about tech, life, and whatever else comes up."
     },
     {
       "name": "Goldie On Ice Podcast",
       "url": "https://goldieonice.podbean.com",
-      "feed": "https://www.podbean.com/site/podcatcher/index/blog/EeKLeCOwC6J"
+      "feed": "https://www.podbean.com/site/podcatcher/index/blog/EeKLeCOwC6J",
+      "description": "Another great source for Florida Panthers commentary and recaps."
     },
     {
       "name": "Corner of the Galaxy",
       "url": "http://cornerofthegalaxy.com",
-      "feed": "http://feeds.soundcloud.com/users/soundcloud:users:94969181/sounds.rss"
+      "feed": "http://feeds.soundcloud.com/users/soundcloud:users:94969181/sounds.rss",
+      "description": "Florida Panthers news, analysis, and fan community coverage."
     },
     {
       "name": "Retro Disney World Podcast",
       "url": "https://www.retrowdw.com",
-      "feed": "http://podcast.retrodisneyworld.com/feed.xml"
+      "feed": "http://podcast.retrodisneyworld.com/feed.xml",
+      "description": "A nostalgic look back at classic Walt Disney World attractions and history."
     },
     {
       "name": "The Squadcast",
       "url": "https://soundcloud.com/squadcast96",
-      "feed": "https://feeds.soundcloud.com/users/soundcloud:users:254676785/sounds.rss"
+      "feed": "https://feeds.soundcloud.com/users/soundcloud:users:254676785/sounds.rss",
+      "description": "More Florida Panthers hockey talk, fan-to-fan."
     },
     {
       "name": "Reconcilable Differences",
       "url": "https://www.relay.fm/rd",
-      "feed": "https://www.relay.fm/rd/feed"
+      "feed": "https://www.relay.fm/rd/feed",
+      "description": "John Siracusa and Merlin Mann talk technology, creativity, and life."
     },
     {
       "name": "Accidental Tech Podcast",
       "url": "https://atp.fm",
-      "feed": "https://cdn.atp.fm/rss/public"
+      "feed": "https://cdn.atp.fm/rss/public",
+      "description": "Marco Arment, Casey Liss, and John Siracusa on tech, Apple, and programming."
     },
     {
       "name": "What Bitcoin Did with Peter McCormack",
       "url": "https://www.whatbitcoindid.com/podcast/",
-      "feed": "https://www.whatbitcoindid.com/podcast?format=rss"
+      "feed": "https://www.whatbitcoindid.com/podcast?format=rss",
+      "description": "Peter McCormack interviews guests from across the Bitcoin world."
     }
   ]
-  
