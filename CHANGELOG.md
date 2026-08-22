@@ -4,6 +4,12 @@
 
 _Everything below predates [release-please](https://github.com/googleapis/release-please), which now generates this file automatically for every release from here on. The old versioning scheme (`paulhatch/semantic-version`) tagged nearly every commit, so only minor/major milestones are summarized here — each links to the full commit range on GitHub._
 
+### [2.0.0](https://github.com/msbfyi/msb-blog/compare/v1.13.0...v2.0.0) (2026-08-21)
+
+- Redesigned site chrome and homepage with the new msb.fyi visual identity: new type system and color tokens, a monogram identity plate, pill nav rail with light/dark/auto mode, and a "dispatch" callout + year-grouped index on the homepage.
+- Dropped the water.css and Font Awesome dependencies in favor of the new design's own tokens.
+- Fixed a build-breaking pagination/static-permalink collision on `/this-week-in-links/`, and stray-markup/missing-description bugs on the podroll and blogroll pages.
+
 ### [1.13.0](https://github.com/msbfyi/msb-blog/compare/v1.12.0...v1.13.0) (2026-07-16)
 
 - Added a `/cal` interstitial page with a custom og:image.
