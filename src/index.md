@@ -12,7 +12,7 @@ pagination:
 
 <section class="open">
 <h1 class="hi">HI THERE<span class="ex">!</span></h1>
-<p class="role">I'm a <strong>dad of two</strong>, semi-regular <a href="https://okwhatwentwrong.com"><strong>podcaster</strong></a>, <strong>home lab tinkerer</strong>, and <strong>Director of Engineering</strong>.</p>
+<p class="role">I'm a <strong>dad of two</strong>, semi-regular <strong>podcaster</strong>, <strong>home lab tinkerer</strong>, and <strong>Engineering and Technology Leader</strong>.</p>
 <div class="credo">
 <p>I believe in the open and independent web, and I've been working on this site for the last two years to keep the <a href="https://indieweb.org">Indieweb</a> spirit alive in me.</p>
 </div>
