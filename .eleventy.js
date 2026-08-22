@@ -1,3 +1,4 @@
+import fs from 'node:fs'
 import dotenv from 'dotenv'
 import markdownIt from "markdown-it"
 import markdownItAnchor from "markdown-it-anchor";
@@ -51,8 +52,21 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "node_modules/simplelightbox/dist/simple-lightbox.min.js": "simplelightbox/simple-lightbox.min.js" });
 
   
+  // CHANGELOG.md is maintained by release-please and lives at the repo
+  // root (outside src/), so it's fed in as global data rather than
+  // moved into the content tree.
+  eleventyConfig.addGlobalData('changelog', () => {
+    try {
+      return fs.readFileSync('./CHANGELOG.md', 'utf8')
+    } catch {
+      return '_No releases yet._'
+    }
+  })
+
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
-  eleventyConfig.addShortcode("appVer", () => `v${process.env.APP_VERSION || '0.0.0'}`)
+  // APP_VERSION is set in CI from `git describe --tags` and already
+  // carries its own "v" prefix (release-please tags as vX.Y.Z)
+  eleventyConfig.addShortcode("appVer", () => process.env.APP_VERSION || 'v0.0.0')
 
 
   // Customize Markdown library and settings:

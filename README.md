@@ -14,18 +14,14 @@ Based on [Eleventy Not So Minimal Blog Starter](https://github.com/mangamaui/ele
 
 ## Versions
 
-I'm using [paulhatch/semantic-version@v5.3.0](https://github.com/paulhatch/semantic-version/tree/v5.3.0/) to manage bumping verions for commits.
+I'm using [release-please](https://github.com/googleapis/release-please) to manage versioning, tagging, and the [changelog](https://msb.fyi/changelog/).
 
-In a commit, you must start the commit message with the key word to bump major or minor versions. A commit with out those will update the patch.
+Commit messages must follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-major.minor.patch
+- `fix: ...` → patch release
+- `feat: ...` → minor release
+- `feat!: ...` (or a `BREAKING CHANGE:` footer) → major release
 
-### How to tag
-
-In a commit, start with [XXX] following the patterns below. If multiple prefixes are used in a pull request it will default to the highest version and only increment by one.
-
-Major version: [Breaking]
-
-Minor version: [Feature]
+On every push to `main`, release-please opens or updates a `chore(main): release X.Y.Z` pull request with the changelog and version bump for whatever's landed. Merging that PR is what actually cuts the release — tags it and updates `CHANGELOG.md`. Other commit types (`docs:`, `chore:`, `refactor:`, `test:`, `ci:`, `build:`) are tracked but hidden from the changelog.
 
 [^1]: Badges from https://badges.pages.dev/
