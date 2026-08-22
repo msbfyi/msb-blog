@@ -4,6 +4,13 @@
 
 _Everything below predates [release-please](https://github.com/googleapis/release-please), which now generates this file automatically for every release from here on. The old versioning scheme (`paulhatch/semantic-version`) tagged nearly every commit, so only minor/major milestones are summarized here — each links to the full commit range on GitHub._
 
+## [2.1.0](https://github.com/msbfyi/msb-blog/compare/v2.0.0...v2.1.0) (2026-08-22)
+
+
+### Features
+
+* integrate release-please for versioning and changelog ([#97](https://github.com/msbfyi/msb-blog/issues/97)) ([d7854fe](https://github.com/msbfyi/msb-blog/commit/d7854fe83a365b1e3f210d08e371f959385a9e48))
+
 ### [1.13.0](https://github.com/msbfyi/msb-blog/compare/v1.12.0...v1.13.0) (2026-07-16)
 
 - Added a `/cal` interstitial page with a custom og:image.
