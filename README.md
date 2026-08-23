@@ -22,6 +22,6 @@ Commit messages must follow [Conventional Commits](https://www.conventionalcommi
 - `feat: ...` → minor release
 - `feat!: ...` (or a `BREAKING CHANGE:` footer) → major release
 
-On every push to `main`, release-please opens or updates a `chore(main): release X.Y.Z` pull request with the changelog and version bump for whatever's landed. Merging that PR is what actually cuts the release — tags it and updates `CHANGELOG.md`. Other commit types (`docs:`, `chore:`, `refactor:`, `test:`, `ci:`, `build:`) are tracked but hidden from the changelog.
+On every push to `main`, release-please opens or updates a `chore(main): release X.Y.Z` pull request with the changelog and version bump for whatever's landed. Merging that PR is what actually cuts the release — tags it and updates `CHANGELOG.md`. Other commit types (`docs:`, `chore:`, `refactor:`, `test:`, `ci:`, `build:`, `content:`) are tracked but hidden from the changelog. `content:` is used by the automated weekly-links/wishlist bots.
 
 [^1]: Badges from https://badges.pages.dev/

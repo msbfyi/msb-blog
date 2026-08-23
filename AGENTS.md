@@ -37,8 +37,14 @@ it just never shows up in a release.
 - `fix: ...` → patch release
 - `feat: ...` → minor release
 - `feat!: ...` or a `BREAKING CHANGE:` footer → major release
-- `docs:`, `chore:`, `refactor:`, `test:`, `ci:`, `build:` → tracked but
-  hidden from the changelog
+- `docs:`, `chore:`, `refactor:`, `test:`, `ci:`, `build:`, `content:` →
+  tracked but hidden from the changelog, no version bump
+
+`content:` is a repo-specific type (not part of the standard set, but
+Conventional Commits allows custom types) for the automated content
+publishing bots — weekly links posts, wishlist regeneration. Use it for
+those, not `chore:`; both are hidden and non-releasing, but `content:`
+keeps automation commits distinguishable from actual maintenance work.
 
 **Do not** use the old `[Breaking]` / `[Feature]` bracket-prefix
 convention — that was `paulhatch/semantic-version`, which this repo no
