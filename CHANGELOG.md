@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/msbfyi/msb-blog/compare/v2.1.0...v2.1.1) (2026-08-23)
+
+
+### Bug Fixes
+
+* restore historical changelog entries, dedupe changelog page header ([#99](https://github.com/msbfyi/msb-blog/issues/99)) ([b574916](https://github.com/msbfyi/msb-blog/commit/b57491667f180ff1de9d6e2af466ffbbe1aefa88))
+
 ## [2.1.0](https://github.com/msbfyi/msb-blog/compare/v2.0.0...v2.1.0) (2026-08-22)
 
 
