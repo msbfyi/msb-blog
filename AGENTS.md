@@ -9,6 +9,13 @@ here so there's one place to keep in sync.
 An [Eleventy](https://11ty.dev) (v3) static site for msb.fyi, deployed to
 Cloudflare Pages on push to `main` (`.github/workflows/publish.yml`).
 
+## Never push directly to `main`
+
+Every change, no matter how small, goes through a branch and a PR — even a
+one-line doc fix. Before running `git push`, check
+`git branch --show-current`; if it's `main`, stop and create a branch
+first. No exceptions for "trivial" changes.
+
 ## Commands
 
 - `npm install`

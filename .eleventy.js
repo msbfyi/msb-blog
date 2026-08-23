@@ -57,7 +57,9 @@ export default function(eleventyConfig) {
   // moved into the content tree.
   eleventyConfig.addGlobalData('changelog', () => {
     try {
-      return fs.readFileSync('./CHANGELOG.md', 'utf8')
+      // Strip the leading "# Changelog" line — src/changelog.njk
+      // renders its own <h1>, so keeping this would duplicate it.
+      return fs.readFileSync('./CHANGELOG.md', 'utf8').replace(/^#\s+Changelog\s*\n+/, '')
     } catch {
       return '_No releases yet._'
     }
