@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/msbfyi/msb-blog/compare/v2.1.1...v2.2.0) (2026-08-25)
+
+
+### Features
+
+* load @msbfyi/style-guide's CSS pattern library ([#103](https://github.com/msbfyi/msb-blog/issues/103)) ([83085a0](https://github.com/msbfyi/msb-blog/commit/83085a08a9df2fd7a3f7e3436b98f816cfcae3c4))
+
 ## [2.1.1](https://github.com/msbfyi/msb-blog/compare/v2.1.0...v2.1.1) (2026-08-23)
 
 
