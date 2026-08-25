@@ -63,16 +63,29 @@ current commit — don't "fix" it to track HEAD.
 
 ## Design system
 
-`src/assets/css/msb.css` is the **only** stylesheet, loaded by
-`src/_includes/styles.njk` alongside the Google Fonts link (Krona One /
-DM Sans / Barlow Condensed / JetBrains Mono). There is no
-water.css/Font Awesome anymore, and no build step for CSS — it's plain
-CSS, passthrough-copied as-is.
+`src/assets/css/msb.css` is the primary, hand-authored stylesheet,
+loaded by `src/_includes/styles.njk` alongside the Google Fonts link
+(Krona One / DM Sans / Barlow Condensed / JetBrains Mono). No build step
+for it — it's plain CSS, passthrough-copied as-is.
 
 - Color/spacing tokens are CSS variables on `:root` (`--paper`, `--ink`,
   `--muted`, `--hair-c`, `--link`, etc.), with light/dark/auto variants —
   see the top of `msb.css`. New UI should use these tokens, not hardcoded
   colors.
+- **Shared component styling** (badges, cards, buttons, nav, etc.) comes
+  from [`@msbfyi/style-guide`](https://github.com/msbfyi/msb-style-guide)
+  — the same design system, extracted into an installable package with
+  its own hosted Storybook. Its `patterns.css` is passthrough-copied from
+  `node_modules` (`.eleventy.js`, same treatment as `simplelightbox`) and
+  loaded as a second stylesheet in `styles.njk`, classes prefixed
+  `msb-` (`.msb-card`, `.msb-badge--energy`, etc. — see that repo's
+  `AddingPatterns.mdx` for the full class reference and composition
+  rules, e.g. the chamfer utility). **Not** its `tokens.css` — this
+  file's own `:root` block already hand-defines the identical
+  `--ink`/`--paper`/etc. tokens those patterns reference, so a second
+  copy would be pure duplication, not additive. New shared-looking UI
+  (a card, a badge, a chamfered button) should reach for one of these
+  classes before writing new bespoke CSS in `msb.css`.
 - `.wrap` and `main` both carry the same max-width/padding box model —
   page content doesn't need its own wrapping div, `<main>` already
   provides it (see `page.njk`).

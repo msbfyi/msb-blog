@@ -50,6 +50,12 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./admin')
   eleventyConfig.addPassthroughCopy({ "node_modules/simplelightbox/dist/simple-lightbox.min.css": "simplelightbox/simple-lightbox.min.css" });
   eleventyConfig.addPassthroughCopy({ "node_modules/simplelightbox/dist/simple-lightbox.min.js": "simplelightbox/simple-lightbox.min.js" });
+  // @msbfyi/style-guide's CSS pattern library (badge, card, nav, etc.
+  // — see its own AddingPatterns.mdx for the class-naming convention).
+  // Not its tokens.css — msb.css already hand-defines the identical
+  // --ink/--paper/etc. tokens these patterns reference, so loading a
+  // second copy would just be redundant, not additive.
+  eleventyConfig.addPassthroughCopy({ "node_modules/@msbfyi/style-guide/dist/patterns": "style-guide/patterns" });
 
   
   // CHANGELOG.md is maintained by release-please and lives at the repo
