@@ -25,9 +25,19 @@ jobs:
         with:
           fetch-depth: 0
 
+      # git describe --tags used to source this, but that raced against
+      # release-please.yml — both trigger off the same push to main with
+      # no ordering between them, and even when this job ran a few
+      # seconds *after* release-please's tag-creation API call, the new
+      # tag wasn't always visible yet to a fresh `git fetch` from this
+      # job's own runner (confirmed for real: v2.2.0 shipped to
+      # production still reading v2.1.1). .release-please-manifest.json
+      # has no such race — it's a plain file committed as part of the
+      # exact commit this job already checked out, no separate
+      # tag-visibility propagation involved at all.
       - name: Get latest release version
         id: version
-        run: echo "version=$(git describe --tags --abbrev=0 2>/dev/null || echo v0.0.0)" >> "$GITHUB_OUTPUT"
+        run: echo "version=v$(jq -r '.["."]' .release-please-manifest.json 2>/dev/null || echo 0.0.0)" >> "$GITHUB_OUTPUT"
       # Run a build step here if your project requires
 
 
