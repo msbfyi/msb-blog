@@ -18,9 +18,9 @@ pagination:
 </div>
 <div class="find">
 <span class="lbl">Find me on the web</span>
-<a href="https://social.lol/@msb" class="btn"><span class="d"></span>Mastodon</a>
-<a href="https://pixelfed.social/@msb" class="btn sec">Pixelfed</a>
-<a href="https://github.com/michaelseanbecker" class="btn sec">Github</a>
+{% msbButton "Mastodon", { variant: "primary", href: "https://social.lol/@msb", dot: true } %}
+{% msbButton "Pixelfed", { variant: "secondary", href: "https://pixelfed.social/@msb" } %}
+{% msbButton "Github", { variant: "secondary", href: "https://github.com/michaelseanbecker" } %}
 </div>
 <div class="stamp">
 <div class="sl">Warning</div>

@@ -7,6 +7,7 @@ import pluginRss from '@11ty/eleventy-plugin-rss'
 
 
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
+import styleGuidePlugin from '@msbfyi/style-guide/eleventy'
 import postGraph from '@rknightuk/eleventy-plugin-post-graph'
 import mastoArchive from './_configs/mastoarchive.plugin.js'
 import getCategoryList from  './src/_11ty/getCategoryList.js'
@@ -36,6 +37,7 @@ export default function(eleventyConfig) {
   })
  
   eleventyConfig.addPlugin(postGraph)
+  eleventyConfig.addPlugin(styleGuidePlugin)
 
   eleventyConfig.addPlugin(mastoArchive, {
     host: 'https://social.lol',
