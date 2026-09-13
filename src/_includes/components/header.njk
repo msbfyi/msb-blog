@@ -1,13 +1,7 @@
 {% set navItems = collections.all | eleventyNavigation %}
 <div class="wrap">
 <header class="ident" role="banner">
-<div class="lock">
-<div class="blocks">
-<span class="blk m">M</span><span class="blk s">S</span><span class="blk b">B</span>
-<span class="dom">.fyi</span>
-</div>
-<span class="name">Michael Sean Becker</span>
-</div>
+{% msbLockup "MSB", ".fyi", "Michael Sean Becker" %}
 <span class="sp"></span>
 <div class="tog" role="group" aria-label="Colour mode">
 <button type="button" data-mode="light" aria-pressed="false">Light</button>
