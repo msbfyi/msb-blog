@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/msbfyi/msb-blog/compare/v2.2.0...v2.2.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* deploy reading a stale version — race with release-please's tag ([#105](https://github.com/msbfyi/msb-blog/issues/105)) ([89ed0c0](https://github.com/msbfyi/msb-blog/commit/89ed0c07b96eebc654b0f27bfa910c09f329577c))
+
 ## [2.2.0](https://github.com/msbfyi/msb-blog/compare/v2.1.1...v2.2.0) (2026-08-25)
 
 
