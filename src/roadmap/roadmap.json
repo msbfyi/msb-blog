@@ -1,0 +1,13 @@
+{
+    "layout": "article",
+    "hasCustomOGImage": true,
+    "eleventyComputed": {
+      "title": "Roadmap"
+    },
+    "excerptText": "MSB.fyi Feature Roadmap",
+    "type": "roadmap",
+    "tags": [
+      "roadmap"
+    ],
+    "permalink": "/roadmap/index.html"
+  }
