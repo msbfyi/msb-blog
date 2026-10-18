@@ -30,14 +30,12 @@ main:has(> .open){padding-top:0}
 
 /* ============ IDENTITY PLATE ============ */
 .ident{display:flex;align-items:flex-end;gap:clamp(16px,2.4vw,28px);padding:clamp(24px,3.6vw,44px) 0 clamp(20px,2.6vw,30px);flex-wrap:wrap}
-.lock{display:flex;flex-direction:column;gap:11px;min-width:0}
-.blocks{display:flex;align-items:flex-end;gap:7px}
-.blk{width:clamp(38px,4.4vw,52px);aspect-ratio:1/1.28;border-radius:9px;display:grid;place-items:center;font-family:var(--display);font-size:clamp(19px,2.3vw,26px);line-height:1;border:1.5px solid var(--hair-c)}
-.blk.m{background:var(--romantic);color:var(--light);transform:rotate(-3deg)}
-.blk.s{background:var(--essence);color:var(--formal);transform:rotate(3deg)}
-.blk.b{background:var(--energy);color:var(--light);transform:rotate(-2deg)}
-.blocks .dom{font-family:var(--display);font-size:clamp(19px,2.3vw,26px);letter-spacing:-0.03em;color:var(--ink);padding-left:5px;padding-bottom:2px}
-.lock .name{font-family:var(--cond);text-transform:uppercase;letter-spacing:0.24em;font-weight:600;font-size:clamp(11.5px,1.2vw,14px);color:var(--muted)}
+/* .lock/.blocks/.blk/.dom/.name replaced by @msbfyi/style-guide's
+   .msb-lockup pattern (header.njk uses the msbLockup shortcode) — see
+   the STYLE-GUIDE PATTERN OVERRIDES section near the bottom of this
+   file for the one real difference (responsive clamp() sizing) that's
+   layered on top locally, per that package's own AddingPatterns.mdx
+   guidance, rather than forking the shared CSS. */
 .ident .sp{flex:1}
 .tog{display:flex;gap:5px;border:1.5px solid var(--hair-c);border-radius:var(--pill);padding:4px}
 .tog button{font-family:var(--cond);text-transform:uppercase;letter-spacing:0.14em;font-weight:700;font-size:10.5px;padding:7px 13px;border-radius:var(--pill);border:0;background:transparent;color:var(--ink);cursor:pointer;line-height:1}
@@ -201,8 +199,8 @@ footer{border-top:3px solid var(--hair-c);padding:clamp(30px,4vw,48px) 0 clamp(3
 .tog{width:100%;justify-content:center}
 }
 /* ============ CHAMFER GEOMETRY ============ */
-.btn,.rail a,.catnav a,.plate a,.plate .no,.frow a,.tog,.tog button,.blk,.ent .upd,.dispatch,.stamp{--c:11px;--stroke:var(--hair-c);position:relative;border:0;border-radius:0;clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c))}
-.btn::after,.rail a::after,.catnav a::after,.plate a::after,.plate .no::after,.frow a::after,.tog::after,.tog button::after,.blk::after,.ent .upd::after,.dispatch::after,.stamp::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--stroke);clip-path:polygon(evenodd,var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c),var(--c) 0,calc(var(--c) + 0.6px) 1.5px,1.5px calc(var(--c) + 0.6px),1.5px calc(100% - 1.5px),calc(100% - var(--c) - 0.6px) calc(100% - 1.5px),calc(100% - 1.5px) calc(100% - var(--c) - 0.6px),calc(100% - 1.5px) 1.5px,calc(var(--c) + 0.6px) 1.5px)}
+.btn,.rail a,.catnav a,.plate a,.plate .no,.frow a,.tog,.tog button,.ent .upd,.dispatch,.stamp{--c:11px;--stroke:var(--hair-c);position:relative;border:0;border-radius:0;clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c))}
+.btn::after,.rail a::after,.catnav a::after,.plate a::after,.plate .no::after,.frow a::after,.tog::after,.tog button::after,.ent .upd::after,.dispatch::after,.stamp::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--stroke);clip-path:polygon(evenodd,var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c),var(--c) 0,calc(var(--c) + 0.6px) 1.5px,1.5px calc(var(--c) + 0.6px),1.5px calc(100% - 1.5px),calc(100% - var(--c) - 0.6px) calc(100% - 1.5px),calc(100% - 1.5px) calc(100% - var(--c) - 0.6px),calc(100% - 1.5px) 1.5px,calc(var(--c) + 0.6px) 1.5px)}
 .plate .no,.ent .upd,.tog button{--c:6px}
 .dispatch,.stamp{--c:16px}
 .btn{--stroke:var(--energy)}
@@ -225,3 +223,16 @@ footer{border-top:3px solid var(--hair-c);padding:clamp(30px,4vw,48px) 0 clamp(3
 
 /* ============ MISC ============ */
 pre > code{text-wrap:balance;line-height:1.5em;padding:10px}
+
+/* ============ STYLE-GUIDE PATTERN OVERRIDES ============ */
+/* @msbfyi/style-guide's .msb-lockup pattern (used via header.njk's
+   msbLockup shortcode) ships fixed sizes, extracted from a static
+   mockup. This site's identity plate has always sized responsively
+   with the viewport instead — these overrides restore that behavior
+   on top of the shared pattern's classes, rather than forking its
+   CSS. Values match what the old hand-written .lock/.blocks/.blk/
+   .dom/.name rules used before the migration. */
+.msb-lockup{min-width:0}
+.msb-lockup__block{width:clamp(38px,4.4vw,52px);font-size:clamp(19px,2.3vw,26px)}
+.msb-lockup__domain{font-size:clamp(19px,2.3vw,26px)}
+.msb-lockup__name{font-size:clamp(11.5px,1.2vw,14px)}
