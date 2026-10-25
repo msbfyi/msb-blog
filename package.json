@@ -27,7 +27,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/is-land": "^4.0.0",
-    "@msbfyi/style-guide": "^1.0.3",
+    "@msbfyi/style-guide": "^1.2.0",
     "@zachleat/snow-fall": "^1.0.3",
     "clean-css": "^5.3.3",
     "date-fns": "^3.3.1",
